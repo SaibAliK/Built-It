@@ -1,0 +1,118 @@
+.image-logo-terms {
+    min-width: 26.3rem;
+    height: 30.2rem;
+    width: 26.3rem;
+    overflow: hidden;
+    margin-right: 3rem;
+    float: left;
+    clear: both;
+    @include m-575{
+        float: initial;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+}
+
+.content-terms-p-main p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 300;
+    color: $text-p;
+    margin-bottom: 3rem;
+}
+
+.info-pages-secc {
+    margin: 10rem 0rem 6.2rem;
+}
+
+
+
+.artical-page-main-block-{
+    .artical-card-main-home{
+        min-width: unset;
+        max-width: unset;
+        border: none;
+        margin-bottom: 3rem;
+        padding: 0px;
+        .artical-tittle {
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: #333333;
+            line-height: 2.4rem;
+            margin-bottom: 1.5rem;
+        }
+        .date-time-block-main {
+            display: flex;
+            align-items: center;
+            @include medium-991{
+                align-items: flex-start;
+            }
+            .tittle-h22 {
+                font-size: 1.4rem;
+                color: #333333;
+                font-weight: 300;
+                display: flex;
+                align-items: center;
+    
+                margin-bottom: 0px;
+                svg {
+                    width: 14px;
+                    margin-right: 0.4rem;
+                    position: relative;
+                    top: -0.1rem;
+                }
+            }
+    
+            .tittle-name-by{
+                font-size: 1.4rem;
+                color: #333333;
+                font-weight: 300;
+                display: flex;
+                align-items: center;
+                margin-bottom: 0pc;
+            }
+            .seprate-line-art {
+                display: block;
+                width: 1px;
+                background: #ccc;
+                height: 1.4rem;
+                margin: 0px 1.5rem;
+                @include medium-991{
+                    display: none;
+                }
+            }
+        }
+        .decp-artical-p p {
+            font-size: 1.3rem;
+            line-height: 2.6rem;
+            margin-top: 2rem;
+            a{
+                font-size: 1.4rem;
+                color: $text-p;
+                font-weight: 600;
+                text-transform: capitalize;
+                &:hover{
+                    color: $primary;
+                }
+            }
+        }
+    }
+    
+
+}
+
+
+// rtl start here
+
+.rtl{
+    .image-logo-terms {
+        margin-right: 0px;
+        margin-left: 3rem;
+        float: right;
+        @include m-575{
+            float: inherit;
+            margin: 0 auto;
+            margin-bottom: 3rem;
+        }
+    }
+}

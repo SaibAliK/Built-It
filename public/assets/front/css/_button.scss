@@ -1,0 +1,394 @@
+// .serch-btn-mt{
+//     font-size: 1.6rem !important;
+//     font-weight: 500;
+//     color: $white;
+//     background: $primary;
+//     border-radius: 50px;
+//     display: inline-block;
+//     text-transform: capitalize;
+//     line-height: 2.6rem;
+//     padding: 1.3rem 1.5rem 1.1rem 1.5rem;
+//     min-width: 17.3rem;
+//     transition: all 0.4s;
+//     height: 5rem;
+//     outline: 0 !important;
+//     text-align: center;
+//     border: none;
+//     outline: none;
+//     cursor: pointer;
+//     &:hover{
+//         background: $heading;
+//         color: $white;
+//     }
+//     &:focus{
+//         color: $white;
+//         box-shadow: none !important;
+//     }
+// }
+
+
+
+.secondary-btn-mt{
+    font-size: 1.6rem !important;
+    font-weight: 500;
+    height: 5rem;
+    line-height: 5rem;
+    color: $white;
+    background: $secondary;
+    border-radius: 50px;
+    text-transform: capitalize;
+    // min-width: 21.2rem;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    outline: 0 !important;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0 2.6rem;
+    // @include flex-center;
+    a,i{
+        color: $white;
+        display: inline-block;
+    }
+    &:hover{
+        background: $primary;
+    }
+    &:focus{
+        color: $white;
+        box-shadow: none !important;
+    }
+
+}
+
+.primary-btn-mt{
+    font-size: 1.6rem !important;
+    font-weight: 500;
+    height: 5rem;
+    line-height: 5rem;
+    color: $white !important;
+    background: $primary;
+    border-radius: 50px;
+    text-transform: capitalize;
+    // min-width: 21.2rem;
+    min-width: 17.9rem;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    outline: 0 !important;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0 4.1rem;
+    // @include flex-center;
+    display: inline-block;
+    a,i{
+        color: $white;
+        display: inline-block;
+    }
+    &:hover{
+        background: $secondary;
+        color: $white !important;
+    }
+    &:focus{
+        color: $white;
+        box-shadow: none !important;
+    }
+
+}
+
+
+// arrows-btn brand slider 
+.slider-arrows{
+    direction: ltr;
+}
+.arrow-mt{
+    font-size: 1rem;
+    width: 3.1rem;
+    height: 3.1rem;
+    border-radius: 5px;
+    background: $white;
+    border: 1px solid $primary;
+    color: $primary;
+    transition: all 0.4s;
+    &:hover{
+        background: $primary;
+        color: $white;
+    }
+    &.next{
+        margin-left: 3px;
+    }
+}
+// arrows-btn brand slider 
+// log in page putton
+
+.login-p {
+    height: 5rem;
+    border-radius: 8px;
+    background: $primary;
+    color: $white !important;
+    outline: 0 !important;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        background: $secondary;
+        color: $white;
+        cursor: pointer;
+    }
+}
+
+
+.login-s {
+    height: 5rem;
+    line-height: 5.0rem;
+    display: inline-block;
+    border-radius: 8px;
+    background: $heading;
+    color: $white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    outline: none;
+    outline: 0 !important;
+    border: none;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        background: $primary;
+        color: $white;
+        cursor: pointer;
+    }
+}
+
+.socl-button{
+    height: 5rem;
+    line-height: 5.5rem;
+    display: inline-block;
+    line-height: 5rem;
+    background: $white;
+    color: $heading;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16%);
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    outline: 0 !important;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    svg{
+        margin: 0px 0.5rem;
+    }
+    &:last-child{
+        margin-bottom: 0px;
+    }
+    img{
+        position: absolute;
+        left: 2rem;
+    }
+}
+
+
+// haseeb btns
+.login-p-order-detail{
+    height: 5rem;
+    // line-height: 5.5rem;
+    display: inline-block;
+    border-radius: 50px;
+    background: $white;
+    color: $white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    outline: 0 !important;
+    width: 100%;
+    text-align: center;
+    width: 15.0rem;
+    &:hover {
+        background: $primary;
+        color: $white;
+    }
+}
+.login-s-order-detail{
+    height: 5rem;
+    // line-height: 5.5rem;
+    display: inline-block;
+    border-radius: 50px;
+    background: $primary;
+    color: $white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    outline: 0 !important;
+    width: 100%;
+    text-align: center;
+    width: 15.0rem;
+    margin-left: 1rem;
+    &:hover {
+        background: $heading;
+        color: $white;
+    }
+}
+.rtl .login-s-order-detail{
+    margin-right: 1rem;
+    margin-left: 0;
+}
+// end haseeb btns
+.common-btn {
+    height: 5rem;
+    line-height: 5rem;
+    border-radius: 50px;
+    background: $primary;
+    color: $white;
+    padding: 0rem 3.3rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    display: inline-block;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    transition: all .4s;
+
+    &:hover {
+        background: $heading;
+        color: $white;
+        transition: ease-in-out .4s;
+    }
+
+}
+.shadow-none{box-shadow: none;}
+
+
+.banner-button{
+    margin-top: 38px;
+    button{
+        background-color: #F14281;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 15px 35px;
+        border: none;
+        border-radius: 100px;
+    }
+}
+
+.btn-black-us {
+    background: #000 !important;
+    min-width: 18.6rem;
+    display: inline-block;
+    &:hover{
+        background: $primary !important;
+    }
+}
+
+
+.add-btn-login-ss{
+    margin-bottom: 0.7rem;
+    position: relative;
+    z-index: 9;
+    @include m-575{
+        margin-bottom: 2rem;
+    }
+    .btn-primary{
+        background: #3B5998 !important;
+        border: 1px solid #3B5998;
+        img{
+            margin: 0px 0.5rem;
+        }
+        &:hover{
+            background: $secondary !important;
+        }
+    }
+   
+    .btn-primary:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -0.5rem;
+        background: #294175;
+        height: 5rem;
+        z-index: -1;
+        border-radius: 50px;
+    }
+    .btn-primary.btn-google {
+        background: white !important;
+        color: #666 !important;
+        font-weight: 700;
+        font-size: 1.8rem;
+        border: 1px solid #DDDDDD;
+        &:hover{
+            color: white !important;
+            background: $secondary !important;
+        }
+        &:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -0.5rem;
+            background: #DDDDDD !important;
+            height: 5rem;
+            z-index: -1;
+            border-radius: 50px;
+        }
+    }
+}
+
+
+.add-basket-button .btn-secondary:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -0.5rem;
+    background: #D9A503;
+    height: 5rem;
+    z-index: -1;
+    border-radius: 50px;
+}
+
+
+.btn-secondary:hover{
+    background: $primary !important;
+    border-color: $primary !important;
+}
+.btn-secondary:focus, .btn-secondary.focus{
+    background: #EDB402;
+    border-color: #EDB402;
+}
+
+.mb-26{
+    margin-bottom: 26px !important;
+}
+
+.btn-border-green {
+    color: $primary !important;
+    border: 1px solid $primary;
+    &:hover{
+        background: $secondary;
+        border: 1px solid $secondary;
+        color: white !important;
+    }
+}

@@ -1,0 +1,233 @@
+
+.footer-sec-top {
+    background: #F6F6F6;
+    padding-top: 15.4rem;
+    padding-bottom: 2.3rem;
+  
+ 
+}
+
+.custom-heading-footer-s {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+}
+
+.get-email-tittle-ft{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: $primary;
+
+}
+.location-ph-mail {
+    margin-bottom: 1.5rem;
+    .ft-ancher- {
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: #555555;
+        padding-right: 1rem;
+        line-height: 2.2rem;
+        &:hover{
+            color: $primary;
+        }
+    }
+    .box-img {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.2rem;
+        .tittle-name-cont-listi {
+            margin-bottom: 0px;
+            font-size: 1.6rem;
+            font-weight: 400;
+            color: $primary;
+            padding: 0px 0.5rem;
+        }
+    }
+}
+
+
+.second-box-footer-main{
+    .ul-second-ft{
+        li{
+            margin-bottom: 1.1rem;
+            a{
+                font-size: 1.4rem;
+                color: #555555;
+                font-weight: 500;
+                &:hover{
+                    color: $primary;
+                }
+            }
+        }
+    }
+}
+
+.location-ph-mail.mrgin-set-ft {
+    margin-bottom: 2rem;
+}
+
+.custom-div-border-news {
+    border-bottom: 1px solid #DCDCE5;
+    padding-bottom: 4.5rem;
+}
+
+
+
+.footer-input-plus{
+    .input-style {
+        position: relative;
+        .ctm-input{
+            font-size: 1.8rem;
+            font-weight: 400;
+            height: 6rem;
+            padding: 0rem 18rem 0rem 3rem;
+            border-bottom: none;
+            color: #666666;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16%);
+            border-radius: 8px;
+            background: white;
+            &::placeholder{
+                font-size: 1.6rem;
+                font-weight: 400;
+                color: #999;
+
+            }
+        }
+        .btn-primary {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            border-radius: 8px !important;
+            padding: 0px !important;
+            width: 15.5rem;
+            height: 5rem;
+        }
+    }
+
+}
+
+
+.four-side-footer-main{
+    .custom-heading-footer-s{
+        font-weight: 800;
+    }
+
+}
+
+
+.bottom-area-footer-ma {
+    height: 7.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .footer-p-end {
+        font-size: 1.5rem;
+        margin-bottom: 0px;
+        font-weight: 400;
+        color: #333;
+        @include m-425{
+            font-size: 1.4rem;
+        }
+        a{
+            font-weight: 700;
+            color: $heading;
+            &:hover{
+                color: $primary;
+            }
+
+        }
+    }
+}
+
+.footer-bottom-2 {
+    background: #F6F6F6;
+    border-top: 1px solid #DCDCE5;
+}
+
+
+
+
+.custom-clas-for-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.5rem;
+    padding-right: 12.2rem;
+    @include medium-991{
+        padding-right: 0px;
+    }
+    @include m-575{
+        flex-wrap: wrap;
+    }
+  
+
+}
+
+.main-four-box-ft {
+    min-width: 51.6rem;
+    @include large-1440{
+       min-width: unset;
+    }
+    @include medium-991{
+        margin-top: 5rem;
+      }
+}
+
+
+.main-second-box-ft {
+    margin-left: 1.5rem;
+    @include m-325{
+        margin-left: 0px;
+    }
+}
+
+.main-third-box-ft {
+    position: relative;
+    left: 2.3rem;
+    @include m-575{
+        left: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+.rtl{
+
+    .footer-input-plus .input-style .btn-primary{
+        left: 0.5rem;
+        right: auto;
+    }
+}
+
+
+
+.four-side-footer-main{
+    .inner-four-ma {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @include medium-991{
+            flex-direction: column;
+        }
+        .left-tittle-news-let{
+            @include medium-991{
+                text-align: center;
+                margin-bottom: 2rem;
+            }
+        }
+        .footer-input-plus {
+            min-width: 65.2rem;
+            @include m-575{
+                min-width: unset;
+                width: 100%;
+            }
+        }
+    }
+
+}

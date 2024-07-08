@@ -1,0 +1,154 @@
+
+
+    .faq-accordion-content-main {
+        .card {
+            border: none;
+            border-top: 1px solid $white;
+            background: transparent;
+            padding: 0.1rem 0rem 0.1rem;
+            border-radius: 0px;
+            margin-bottom: 2rem;
+    
+            &:last-child {
+                border-bottom: 1px solid $white;
+                margin-bottom: 0px;
+            }
+        }
+    
+        .card-header {
+            border-bottom: none;
+            background: none;
+            padding: 0px;
+    
+            .btn.btn-link.collapsed {
+                .fas.fa-caret-up {
+                    display: none;
+                }
+                .fas.fa-caret-down{
+                    display: block;
+                }
+    
+                i.fas.fa-minus {
+                    display: none;
+                }
+                .fa-chevron-up{
+                    display: none;
+                }
+    
+            }
+    
+            .btn-link {
+                font-weight: 600;
+                font-size: 1.8rem !important;
+                color: $heading !important;
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                text-transform: inherit !important;
+                padding: 0px !important;
+                background: #E6E6E6;
+                outline: 0 !important;
+                border-radius: 8px !important;
+                width: 100%;
+                justify-content: flex-start;
+                position: relative;
+                text-align: left;
+                height: unset !important;
+                padding-left: 0px !important;
+                .btn-on-tittleee {
+                    width: 75%;
+                }
+    
+                .box-numer-q {
+                    background: $primary;
+                    display: inline-block;
+                    min-width: 6rem;
+                    border-radius: 10px;
+                    border: 2px solid #fff;
+                    height: 6rem;
+                    display: inline-flex;
+                    margin-right: 1.5rem;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 2.6rem;
+                    color: white;
+                    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.20%);
+                    font-weight:700;
+                    .q-tittlee-s {
+                        position: relative;
+                        top: 0.2rem;
+                        @include medium-991{
+                            top: 0px;
+                        }
+                    }
+                }
+    
+                @include m-575 {
+                    padding-right: 5rem;
+                }
+    
+                .fas.fa-caret-up {
+                    display: block;
+                }
+                .fas.fa-caret-down{
+                    display: none;
+                }
+    
+                .fa,
+                .fas {
+                    font-weight: 900;
+                    position: absolute;
+                    right: 2rem;
+                    color: $text-9;
+                    font-size: 2rem;
+    
+                    @include m-575 {
+                        right: 0px;
+                    }
+                }
+    
+                &:focus {
+                    box-shadow: none !important;
+                }
+            }
+        }
+    
+        .card-body {
+            font-size: 1.6rem;
+            color: #333;
+            font-weight: 400;
+            line-height: 2.6rem;
+            margin-top: 0px;
+            padding: 1.5rem 0rem 0rem;
+        }
+    }
+  
+    
+    // faqs detail page csss
+
+  
+  
+  
+ 
+  
+
+
+  
+   
+  // end faqs detail
+
+
+
+  .rtl {
+    .faq-accordion-content-main .card-header .btn-link .box-numer-q{
+        margin-right: 0rem;
+        margin-left: 1.5rem;
+    }
+    .faq-accordion-content-main .card-header .btn-link{
+        padding-right: 0px !important;
+    }
+    .faq-accordion-content-main .card-header .btn-link .fa, .faq-accordion-content-main .card-header .btn-link .fas{
+        left: 0px;
+        right: auto;
+    }
+  }

@@ -1,0 +1,229 @@
+// dashboard left nev
+
+.nav-left-mt-a {
+  padding: 0px !important;
+  background-color: $white;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #EEEEEE;
+  overflow: hidden;
+
+  .sidebar-heading {
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #222222;
+    height: 5rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-item {
+    background: #fff;
+    position: relative;
+    display: flex;
+    height: 8rem;
+    align-items: center;
+    width: 100%;
+    padding: 0rem 0rem 0rem 2rem;
+    &:last-child{
+      border-bottom: none;
+      &:after{
+        display: none;
+      }
+    }
+    
+
+
+    .nav-link {
+      font-size: 2rem;
+      font-weight: 500;
+      text-transform: capitalize;
+      display: flex;
+      color: $heading;
+      height: 5rem;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      @include large-1199{
+        font-size: 1.7rem;
+      }
+      
+     
+      i {
+        font-weight: 900;
+        color: $secondary;
+        margin-right: 1.7rem;
+      }
+
+      img {
+        margin-right: 1.9rem;
+      }
+
+      svg {
+        position: relative;
+        top: -0.1rem;
+        
+        path {
+          fill: #222;
+        }
+      }
+    }
+
+    &:hover,
+    &.active {
+      background: $primary;
+
+      .nav-link {
+       color: white;
+
+        i {
+          color: #377dff;
+        }
+
+        Svg {
+          text {
+            fill: white;
+          }
+        }
+
+        img {
+          -moz-filter: brightness(0) invert(1);
+          -o-filter: brightness(0) invert(1);
+          -ms-filter: brightness(0) invert(1);
+          -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+        }
+      }
+    }
+  }
+}
+
+.rtl {
+  .nav-left-mt-a {
+    .nav-item {
+      .nav-link {
+        i {
+          margin-right: 0rem;
+          margin-left: 1rem;
+          transform: scaleX(-1);
+        }
+      }
+    }
+  }
+
+  .nav-left-mt-a .nav-item .nav-link svg {
+    margin-right: 0rem;
+    margin-left: 1.7rem;
+
+  }
+}
+
+
+
+.custom-drop-profile-nav{
+  .dropdown-item.active, .dropdown-item:active{
+    background: rgba(192, 229, 253, 0.25%) !important;
+    color: $secondary !important;
+
+  }
+  .dropdown-toggle::after{
+    display: none;
+  }
+  .btn-secondary {
+    background: none !important;
+    color: #000 !important;
+    width: 100%;
+    text-align: left !important;
+    justify-content: flex-start;
+    padding: 0px 2rem !important;
+    border-radius: 0px !important;
+    border: none;
+    font-size: 1.8rem !important;
+    font-weight: 400;
+    .fa-chevron-down {
+      font-size: 1rem;
+      position: absolute;
+      color: $heading;
+      right: 2rem;
+      padding-top: 1px;
+  }
+    &:hover{
+      color: $secondary !important;
+    }
+}
+  .dropdown-menu{
+    transform: translate3d(0px, 0px, 0px) !important;
+    position: relative !important;
+    width: 100%;
+    box-shadow: none !important;
+    .dropdown-item {
+      padding: 0.8rem 3.5rem;
+      font-weight: 400;
+      color: #000;
+      font-size: 1.8rem;
+      &:hover{
+        background: rgba(192, 229, 253, 0.25%) !important;
+        color: $secondary !important;
+      }
+    }
+  }
+
+}
+
+.dropdown.custom-drop-profile-nav.show .btn-secondary {
+  background: rgba(192, 229, 253, 0.25%) !important;
+  color: $secondary !important;
+  font-weight: 600;
+}
+
+.dropdown.custom-drop-profile-nav.show .btn-secondary .fa-chevron-down {
+  color: $secondary;
+  padding-top: 0px;
+  transform: rotate(180deg);
+}
+
+.sec-custom-us-mh-all {
+  padding: 10rem 0rem;
+}
+
+
+.rtl {
+  .nav-left-mt-a .nav-item .nav-link svg{
+    transform: scaleX(-1);
+    margin-left: unset;
+    text{
+      transform: translate(29px, 20px);
+    }
+  }
+
+}
+
+
+.box-in-icon-p {
+  min-width: 4rem;
+  max-width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.log-out-btn-dasboard {
+  padding: 0rem 4.8rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+
+
+// rtl start here
+
+
+.rtl {
+  .nav-left-mt-a .nav-item{
+    padding: 0rem 2rem 0rem 0rem;
+  }
+}

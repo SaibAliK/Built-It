@@ -1,0 +1,67 @@
+.my-table {
+  margin-top: 1.5rem; }
+  .my-table thead tr {
+    border: none;
+    background-color: #eeeeee; }
+  .my-table thead th {
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 400 !important;
+    color: #222;
+    text-transform: capitalize;
+    padding: 1.3rem; }
+  .my-table tbody tr {
+    border: 0.1rem solid #eeeeee;
+    background-color: #fff; }
+  .my-table tbody td {
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 400 !important;
+    color: #222;
+    text-transform: capitalize;
+    padding: 1.3rem; }
+    .my-table tbody td:nth-child(2) {
+      font-size: 1.6rem;
+      font-weight: 500 !important;
+      color: #222;
+      text-transform: uppercase; }
+    .my-table tbody td:nth-child(3) {
+      font-size: 1.6rem;
+      font-weight: 500 !important;
+      color: #222;
+      text-transform: uppercase; }
+    .my-table tbody td:nth-child(4) {
+      font-size: 1.6rem;
+      font-weight: 500 !important;
+      color: #222;
+      text-transform: uppercase; }
+    .my-table tbody td:nth-child(5) {
+      font-size: 1.6rem;
+      font-weight: 700 !important;
+      color: #377dff;
+      text-transform: uppercase; }
+
+.payment-table {
+  margin-top: -1rem;
+  text-align: center; }
+  .payment-table thead tr {
+    border: none;
+    background-color: #f9f9f9; }
+  .payment-table thead th {
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 400 !important;
+    color: #222;
+    text-transform: capitalize;
+    padding: 1.3rem;
+    width: 27.3rem; }
+  .payment-table tbody tr {
+    border: 0.1rem solid #eeeeee;
+    background-color: #fff; }
+  .payment-table tbody td {
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 500 !important;
+    color: #222;
+    text-transform: capitalize;
+    padding: 1.3rem; }

@@ -1,0 +1,591 @@
+.image-block-teach-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 26.3rem;
+    width: 26.3rem;
+    height: 33.7rem;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-right: 3rem;
+    @include m-575{
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+}
+
+.tech-det-page-top-block{
+    @include medium-991{
+        flex-direction: column;
+    }
+}
+
+
+.right-contnt-teacher-p{
+    .tittle-tec-dt {
+        font-size: 1.6rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        margin-top: 0.4rem;
+        color: #333;
+    }
+    .sub-tittle-tec-dt {
+        font-size: 1.4rem;
+        font-weight: 300;
+        color: $text-p;
+    }
+
+    .total-tittle-tech{
+        font-size: 1.4rem;
+        font-weight: 300;
+        color: $text-p;
+        margin-top: 0.8rem;
+
+    }
+}
+
+
+.content-decp-parent{
+    border-top: 1px solid #ddd;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    .tittle-about-p {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #000;
+    }
+    .decp-p-tech-dtt {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 1.8rem;
+        p {
+            font-size: 1.3rem;
+            font-weight: 400;
+            line-height: 2.4rem;
+            color: $text-p;
+            margin-bottom: 2.3rem;
+            &:last-child{
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+.cor-tittle {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #333;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+
+.view-tittle-dtt{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: $primary;
+    text-decoration: underline;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    &:hover{
+        text-decoration: underline !important;
+        color: $secondary;
+    }
+
+}
+
+.tittle-ancor-main-parent-dt {
+    margin-top: 3.5rem;
+}
+.teacher-acdme-card-detail{
+    margin-bottom: 3rem;
+    .wrapper-card-teacher .content-teacher-card{
+        height: 12.1rem;
+        .designation-name{
+            margin-top: 1.7rem;
+        }
+    }
+
+}
+
+
+.subject-block-list-dt{
+    border-bottom: 1px solid #ddd;
+    padding-top: 1.7rem;
+    padding-bottom: 0.9rem;
+    .Speciality-tittlee {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #000;
+        margin-bottom: 2rem;
+    }
+    .subject-listing-ul {
+        display: flex;
+        .list-items-li {
+            margin-right: 2rem;
+            font-size: 1.4rem;
+            font-weight: 300;
+            color: $text-p;
+            display: flex;
+            align-items: center;
+            .dot-span- {
+                display: inline-block;
+                width: 0.5rem;
+                height: 0.5rem;
+                min-width: 0.5rem;
+                background: #666;
+                border-radius: 50px;
+                margin-right: 0.5rem;
+            }
+        }
+    }
+}
+
+
+
+
+// coure detail page csss start here
+
+.video-block-dt-cour {
+    min-width: 65.2rem;
+    position: relative;
+    height: 36rem;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 65.2rem;
+    margin-right: 3rem;
+    @include medium-991{
+        margin: 0 auto;
+        margin-bottom: 3rem;
+        
+    }
+    @include m-575{
+        width: 100%;
+        height: unset;
+        min-width: unset;
+    }
+    .preview-label-on-img {
+        position: absolute;
+        display: flex;
+        border: 1px solid $secondary;
+        background: white;
+        align-items: center;
+        padding: 0.8rem 1.5rem;
+        border-radius: 5px;
+        bottom: 1.1rem;
+        .icon-play- {
+            margin-left: 1.5rem;
+            svg{
+                &:hover{
+                    g{
+                        fill: $secondary;
+                        stroke: $secondary;
+                    }
+                    path{
+                        fill: white;
+                    }
+                }
+            }
+        }
+        .labe-area-tittle {
+            font-size: 1.8rem;
+            font-weight: 400;
+            margin-bottom: 0px;
+            color: $secondary;
+        }
+    }
+}
+
+
+.course-dt-acd-main-block {
+    display: flex;
+    margin-bottom: 2.5rem;
+    @include medium-991{
+        flex-direction: column;
+    }
+}
+
+
+
+// end course deail page css here
+
+
+.tittle-sec-nam-all {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 2.5rem;
+}
+
+
+
+
+.course-detail-page-acde{
+    .custom-accordian-lec-dt .card{
+        margin-bottom: 0px;
+        border-radius: 0 !important;
+    }
+    .custom-accordian-lec-dt .card-body {
+        padding: 1.25rem 3rem 1.25rem 3rem;
+    }
+}
+
+.crriculam-acd-dt-p-main{
+    .tittle{
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #333;
+    }
+    .sub-tittle-time-vid{
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #666;
+
+    }
+
+
+}
+
+.right-side-content-cor-dt{
+    .price-tittlee {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333333;
+    }
+    .tittle-for-course-ds{
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 2.2rem;
+        .tittle {
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: #333;
+            line-height: 2.6rem;
+            width: 60%;
+        }
+        .student-titleee {
+            font-size: 1.4rem;
+            font-weight: 300;
+            color: #666;
+        }
+
+    }
+
+    .desp-p-block-acd-cour{
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 0.3rem;
+        .tittle-2{
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: #000;
+            margin-bottom: 1rem;
+            text-transform: capitalize;
+            .title-sp-change{
+                color: $text-p;
+            }
+        }
+        .inner-dex-p {
+            max-height: 10.2rem;
+            overflow: auto;
+            &::-webkit-scrollbar {
+                width: 5px;
+              }
+              
+              /* Track */
+              &::-webkit-scrollbar-track {
+                background: transparent; 
+              }
+               
+              /* Handle */
+              &::-webkit-scrollbar-thumb {
+                background: transparent; 
+              }
+              
+              /* Handle on hover */
+              &::-webkit-scrollbar-thumb:hover {
+                background: transparent; 
+              }
+            p {
+                font-size: 1.4rem;
+                font-weight: 400;
+                color: #666;
+                line-height: 2.4rem;
+            }
+        }
+    }
+  
+
+}
+
+
+.image-content-profile-btn-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.6rem;
+    .image-content-left-b {
+        max-width: 24rem;
+        .tittle-reviews {
+            font-size: 1.4rem;
+            font-weight: 400;
+            color: #666;
+            margin-bottom: 0.9rem;
+        }
+    }
+    .inner-left-side-con-im {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        .image-block-parent-acd {
+            min-width: 7.7rem;
+            height: 9.9rem;
+            width: 7.7rem;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-right: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .star-rating-area{
+        font-size: 1.1rem;
+        margin-bottom: 0.6rem;
+    }
+    .star-rating-area .rating-static > label:before{
+        font-size: 1.1rem;
+    }
+    .star-rating-area .ratilike {
+        width: auto;
+        display: block;
+        font-size: 1rem;
+        margin-top: 0.4rem;
+        color: #333;
+        font-weight: 400;
+        line-height: 1.1rem;
+        padding: 0px 3px;
+    }
+}
+
+
+.edit-profile-btn-dt-acd{
+    .btn-green-border {
+        border: 1px solid #19CB98 !important;
+        background: none;
+        font-size: 1.4rem !important;
+        min-width: 11.4rem;
+        padding: 10px !important;
+        color: #19CB98 !important;
+        height: 3.5rem;
+        &:hover{
+            background: $secondary;
+            border: 1px solid $secondary !important;
+            color: white !important;
+        }
+    }
+}
+
+.inner-wrapper-bor-bottom{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    .top-tittle-3-here{
+        .tittle-1{
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: #000;
+            margin-bottom: 1rem;
+            text-transform: capitalize;
+
+        }
+        .tittle-2{
+            font-size: 1.4rem;
+            font-weight: 400;
+            color: #333333;
+            margin-bottom: 1rem;
+        }
+
+        .tittle-3{
+            font-size: 1.4rem;
+            font-weight: 400;
+            color: #666;
+        }
+        
+
+    }
+}
+
+.tittles-cor-include {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.course-detail-tittle-acd-dt{
+    .ul-listing-tittles{
+        margin-bottom: 0px;
+        .list-items{
+            font-size: 1.4rem;
+            font-weight: 300;
+            color: $text-p;
+            display: block;
+            margin-bottom: 0.8rem;
+            &:last-child{
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+}
+
+
+.video-deatil-acd-modal{
+    .modal-body{
+        padding: 0px !important;
+    }
+    .close {
+        position: absolute;
+        right: -1rem;
+        top: -1rem;
+        font-size: 2.6rem;
+        font-weight: 500;
+        z-index: 9;
+        outline: 0 !important;
+        opacity: 1;
+        &:hover{
+            opacity: 1 !important;
+            svg{
+                circle{
+                    fill: $secondary;
+                }
+            }
+            
+        }
+    }
+    .video-block-mod-acd-parent {
+        background: black;
+        height: 43.5rem;
+    }
+
+}
+
+
+
+@media (min-width: 576px){
+    .video-deatil-acd-modal .modal-dialog {
+        max-width: 750px;
+        margin: 1.75rem auto;
+    }
+}
+
+.radding-add-ti- {
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: underline;
+    color: $primary;
+    &:hover{
+        color: $secondary;
+        text-decoration: underline !important;
+    }
+}
+
+
+
+.rating-modal-detail{
+    .modal-content {
+        border: none;
+        border-radius: 15px;
+        outline: 0;
+    }
+    .modal-body {
+        padding: 1.8rem 1.5rem 2.5rem 1.5rem;
+    }
+    .close {
+        position: absolute;
+        right: -1rem;
+        top: -1rem;
+        font-size: 2.6rem;
+        font-weight: 500;
+        z-index: 9;
+        outline: 0 !important;
+        opacity: 1;
+        &:hover{
+            opacity: 1 !important;
+            svg{
+                circle{
+                    fill: $secondary;
+                }
+            }
+            
+        }
+    }
+
+}
+
+
+.star-box-raing-det{
+    .tittle-add-mttt {
+        font-size: 2rem;
+        font-weight: 400;
+        color: #222;
+        margin-bottom: 0px;
+    }
+    .rating-add-mt .rating > label:before {
+        margin: 0.25rem;
+        font-size: 2.1rem;
+        font-family: FontAwesome;
+        display: inline-block;
+        content: "\f005";
+    }
+
+    .input-style .ctm-textarea {
+        font-size: 1.7rem;
+        font-weight: 300;
+        color: #333;
+        height: 12rem;
+        resize: none;
+        border-radius: 5px;
+        width: 100%;
+        outline: none;
+        border: none;
+        padding: 1rem 1.5rem;
+        margin-top: 0.5rem;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16%);
+        &::placeholder{
+            font-size: 1.6rem;
+            font-weight: 300;
+            color: #999999;
+        }
+    }
+    .input-style label {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #222;
+        margin-bottom: 0rem;
+        text-align: left;
+        text-transform: capitalize;
+    }
+
+}
+
+.accadmey-teacher-right-block-dt{
+    @include m-575{
+        margin-top: 5rem;
+    }
+}
+
+
+// rtl start here
+
+.rtl {
+    .image-block-teach-p{
+        margin-right: 0rem;
+        margin-left: 3rem;
+    }
+    .subject-block-list-dt .subject-listing-ul .list-items-li {
+        margin-left: 2rem;
+        margin-right: 0px;
+    }
+    .subject-block-list-dt .subject-listing-ul .list-items-li .dot-span-{
+        margin-right: 0rem;
+        margin-left: 0.5rem;
+    }
+}

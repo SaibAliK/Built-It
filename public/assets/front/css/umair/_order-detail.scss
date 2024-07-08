@@ -1,0 +1,835 @@
+
+.order-detail-main-area {
+    border: 1px solid #EEEEEE;
+    border-radius: 20px;
+    margin-top: 3rem;
+    padding: 2rem;
+}
+
+
+.inner-wrapper-order-dt {
+    border-bottom: 1px solid #E6E6E6;
+    padding-bottom: 0.8rem;
+    margin-bottom: 2.1rem;
+    @include m-575{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 2.5rem;
+    }
+}
+
+.order-dt-statuss{
+    .oder-dt-cus-head-right{
+        font-size: 1.6rem;
+        color: $text-p;
+        margin-bottom: 1rem;
+        text-transform: capitalize;
+        font-weight: 400;
+        .span-status--right{
+            font-size: 1.6rem;
+            color: $primary;
+            font-weight: 700;
+
+        }
+
+    }
+
+}
+
+
+
+
+.top-tittle-area-dt{
+    .oder-dt-cus-head{
+        font-size: 2rem;
+        color: $heading;
+        font-weight: 900;
+        margin-bottom: 1.7rem;
+    }
+    .oder-dt-cus-head-2{
+        font-size: 1.6rem;
+        color: $text-p;
+        margin-bottom: 1rem;
+        text-transform: capitalize;
+        font-weight: 400;
+        .span-time-head-2{
+            font-size: 1.6rem;
+            color: $heading;
+            font-weight: 800;
+
+        }
+       
+
+    }
+}
+
+.dt-sub-tittle-head {
+    font-size: 2rem;
+    font-weight: 500;
+    color: $heading;
+    margin-bottom: 1.9rem;
+   
+}
+
+.oder-dt-cus-head-ad {
+    font-size: 1.6rem;
+    color: #666;
+    margin-bottom: 0.6rem;
+    text-transform: capitalize;
+    line-height: 2.5rem;
+    font-weight: 300;
+    &:last-child{
+        margin-bottom: 0px;
+    }
+    .span-time-head-2{
+        font-size: 1.6rem;
+        color: #333;
+        font-weight: 700;
+    }
+    .span-time-head-decb{
+        font-size: 1.6rem;
+        color: #333;
+        font-weight: 700;
+        text-transform: initial;
+    }
+}
+
+
+.custom-class-for-space-dt {
+    padding-bottom: 1.7rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.cash-delivey-pay-dt {
+    margin-bottom: 0px;
+    font-size: 1.6rem;
+    color: $heading;
+    line-height: 2.6rem;
+    position: relative;
+    margin-top: -0.6rem;
+    font-weight: 400;
+}
+
+.address-main-div-dt{
+    .hom-addres-dt {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: $heading;
+        margin-bottom: 0.7rem;
+    }
+    .p-dec-add-dt{
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: $heading;
+        margin-bottom: 0.4rem;
+    }
+    .oder-dt-cus-head-2{
+        font-size: 1.8rem;
+        color: $heading;
+        margin-bottom: 1rem;
+        text-transform: capitalize;
+        font-weight: 600;
+        margin-top: 1rem;
+        .span-time-head-2{
+            font-size: 1.8rem;
+            color: $heading;
+            font-weight: 400;
+
+        }
+    }
+
+}
+
+
+
+
+.order-detail-canel-btn {
+    max-width: 26.2rem;
+    margin-left: auto;
+   
+}
+
+.btn-black {
+    border: 1px solid #333 !important;
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
+    color: #333 !important;
+    &:hover{
+        background: $primary !important;
+        border: 1px solid $primary !important;
+    
+    }
+}
+
+
+
+.tittle-name-product-dt{
+    .tittle-sub {
+        font-size: 2.8rem;
+        text-transform: capitalize;
+        font-weight: 700;
+        color: #333;
+        margin-bottom: 1.9rem;
+    }
+    .oder-dt-cus-head-ad{
+        margin-bottom: 1.1rem;
+    }
+}
+
+
+
+.total-p-dt-page{
+    .price-tittle-dt {
+        font-size: 1.8rem;
+        text-transform: capitalize;
+        font-weight: 600;
+        color: $heading;
+        margin-bottom: 1.6rem;
+        @include m-575{
+            text-align: left;
+        }
+        span{
+            color: $primary;
+            font-weight: 800;
+        }
+    }
+}
+
+
+.order-dt-buttons{
+    .btn-primary {
+        padding: 1.5rem 2.7rem !important;
+        min-width: 18.6rem;
+    }
+}
+
+
+
+
+.assign-order-main {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    .dt-supllier-image-main{
+        margin-right: 1.5rem;
+    }
+    .name-title-assign{
+        font-size: 2rem;
+        color: $heading;
+        font-weight: 600;
+    }
+    .address-assign{
+        font-size: 2rem;
+        color: $text-9;
+        font-weight: 500;
+        margin-bottom: 0px;
+        .fa-map-marker-alt {
+            font-size: 1.4rem;
+            color: $secondary;
+            position: relative;
+            top: -0.2rem;
+        }
+    }
+    .assign-content-right {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+.radio-area-main-assign{
+    position: relative;
+    top: -0.4rem;
+.container {
+    display: block;
+    position: relative;
+    padding-left: 10px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 19px;
+    width: 19px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: $secondary;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+    top: 5px;
+    left: 5px;
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: white;
+  }
+}
+
+
+
+
+.custom-class-for-space-card-dt {
+    padding-bottom: 0rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #7A7AAE;
+}
+
+// end cart detail page
+
+
+.invoice-detail-main{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    .m-usd {
+        min-width: 26.2rem;
+        height: 4.5rem;
+        outline: 0 !important;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #333;
+        background: white;
+        border-radius: 8px;
+        border: 1px solid #333;
+        z-index: 9;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        svg{
+            margin: 0px 0.5rem;
+        }
+        &:hover{
+            background: $primary;
+            border: 1px solid $primary;
+            color: white !important;
+        }
+        .fa-chevron-down {
+            font-size: 1.4rem;
+        }
+    }
+    .dropdown-menu{
+        width: 100%;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-top: -4rem;
+        padding-top: 4.4rem;
+        .dropdown-item{
+            font-size: 1.5rem;
+            text-align: center;
+            text-transform: capitalize;
+        }
+    }
+}
+
+.order-dt-buttons{
+    .supplier-order-dt-btn-main{
+        .btn-primary{
+            margin-left: 1.5rem;
+            padding: 1.5rem 1.5rem !important;
+            @include medium-991{
+                margin-left: 0px;
+                margin-top: 1rem;
+            }
+        }
+    
+    }
+
+}
+
+
+
+
+.main-block-shpping-image-content {
+    display: flex;
+    margin-bottom: 1.1rem;
+    align-items: center;
+    .shipping-dt-img {
+        width: 8.1rem;
+        height: 8.1rem;
+        min-width: 8.1rem;
+        background: white;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16%);
+        border-radius: 10px;
+        overflow: hidden;
+        margin-right: 1.5rem;
+    }
+    .right-content-shipping{
+        .tittle-name-city{
+            font-size: 1.8rem;
+            font-weight: 400;
+            line-height: 2.6rem;
+            color: $primary;
+            width: 90%;
+            margin-bottom: 0px;
+
+        }
+      
+
+    }
+}
+
+
+
+
+
+// modal csss here custom
+.custom-modal-pa-all{
+    .modal-content {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        pointer-events: auto;
+        background-color: #ffffff;
+        background-clip: padding-box;
+        border: none;
+        border-radius: 20px;
+        outline: 0;
+        padding: 5rem 4.8rem 5rem;
+    }
+
+    .close {
+        float: right;
+        font-size: 1.7rem;
+        font-weight: 700;
+        line-height: 1;
+        color: #45cea2;
+        text-shadow: unset;
+        opacity: 1;
+        min-width: 3.2rem;
+        max-width: 3.2rem;
+        height: 3.2rem;
+        outline: 0 !important;
+        background: white !important;
+        border-radius: 50px;
+        position: absolute;
+        top: -50px;
+        right: 0px;
+        &:hover{
+            background: $secondary !important;
+            opacity: 1 !important;
+            color: white;
+        }
+    }
+
+    .modal-header {
+        padding: 0px;
+        .modal-title {
+            margin-bottom: 0;
+            line-height: inherit;
+            font-size: 2.6rem;
+            text-align: center;
+            width: 100%;
+            color: #333;
+            font-weight: 900;
+            padding-bottom: 1.2rem;
+        }
+    }
+
+    .modal-footer {
+        padding: 0px;
+        border: none;
+        position: relative;
+        top: -0.2rem;
+        display: flex;
+        flex-wrap: nowrap;
+        .space-seprater- {
+            margin: 10px;
+        }
+        .btn{
+            margin: 0px;
+        }
+    }
+
+}
+
+
+.cancel-out-pageee-radio{
+    .custom-radio .checkmark {
+        position: absolute;
+        top: -0.2rem;
+        left: 0;
+        height: 2.5rem;
+        width: 2.5rem;
+        background-color: #ffffff;
+        border-radius: 50%;
+        border: 1px solid #ddd;
+    }
+
+    .custom-radio .checkmark:after {
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-51%, -53%);
+        transform: translate(-51%, -53%);
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        background: white;
+    }
+    .custom-radio{
+        padding-left: 4rem;
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #999999;
+        line-height: inherit;
+        margin-bottom: 2.2rem;
+    }
+
+
+
+}
+
+
+.marks-complete-parent{
+    .dexc-about-del {
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: #333;
+        text-align: center;
+        margin-bottom: 3.4rem;
+        margin-top: 1rem;
+    }
+}
+
+
+
+// end custom modal csss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rtl {
+    .oder-dt-cus-head-ad{
+        display: flex;
+        .span-time-head-2{
+            padding-right: 0.4rem;
+        }
+    }
+    .top-tittle-area-dt .oder-dt-cus-head-2{
+        display: flex;
+    }
+    .top-tittle-area-dt .oder-dt-cus-head-2 .span-status-blue{
+        padding-right: 0.4rem;
+    }
+    .cart-card-on-order-detail .wrapper-card-cart .image-cart{
+        margin-right: 0rem;
+        margin-left: 1.5rem;
+        @include m-375{
+            margin-left: 0px;
+        }
+    }
+    .cart-card-on-order-detail .wrapper-card-cart .oder-dt-cus-head-2{
+        display: flex;
+        
+    }
+    .cart-card-on-order-detail .wrapper-card-cart .oder-dt-cus-head-2 .span-status-blue{
+        padding-right: 0.4rem;
+    }
+
+    .right-side-of-cart-card .wrapper-content .quantity-tittle{
+        display: flex;
+    }
+    .right-side-of-cart-card .wrapper-content .quantity-tittle .span-tittle{
+        padding-right: 0.4rem;
+    }
+    .total-p-dt-page .price-tittle-dt{
+        @include m-575{
+            text-align: right;
+        }
+    }
+}
+
+
+.product-list-ord-dt-page{
+    .oder-dt-cus-head-2 {
+        font-size: 1.4rem;
+        color: #666;
+        margin-bottom: 1rem;
+        text-transform: capitalize;
+        position: relative;
+        margin-top: -0.4rem;
+        font-weight: 400;
+        .span-time-head-2 {
+            font-size: 1.4rem;
+            color: #333;
+            font-weight: 700;
+        }
+    }
+
+}
+
+
+
+.custom-product-card-dt {
+    border: 1px solid #E6E6E6;
+    border-radius: 20px;
+    padding-right: 2rem;
+    margin-bottom: 1.5rem;
+    .image-of-card-1 {
+        min-width: 11.1rem;
+        height: 11.1rem;
+        max-width: 11.1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        border-radius: 20px;
+        margin-right: 1.5rem;
+    }
+    .tittle-quantity-parent {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .tittle-name{
+            font-size: 1.8rem;
+            text-transform: capitalize;
+            width: 46rem;
+            font-weight: 600;
+            color: #333;
+        }
+        .quantity-tittle {
+            min-width: 10rem;
+            text-align: right;
+            font-size: 1.6rem;
+           font-weight: 500;
+           color: #333;
+        }
+    }
+
+    .one-meter-tittle-name{
+        margin-top: 0.7rem;
+        .tittle-h2{
+            font-size: 1.6rem;
+            margin-bottom: 0px;
+            font-weight: 400;
+            color: #666;
+            .color-gre{
+                font-weight: 800;
+                color: $primary;
+            }
+
+        }
+
+    }
+}
+
+
+.order-summary-parent {
+    border: 1px solid #EEEEEE;
+    border-radius: 20px;
+    margin-top: 5rem;
+    overflow: hidden;
+    .inner-summary-p{
+        .tittle-summ{
+            font-size: 2rem;
+            font-weight: 900;
+            color: $heading;
+            padding: 1.7rem 1.5rem;
+            margin: 0px 1.5rem;
+            text-align: center;
+            border-bottom: 1px solid #DDDDDD;
+        }
+        .two-tittles-parent {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 1.6rem;
+            padding: 0px 1.5rem;
+            .tittle-left{
+                font-size: 1.6rem;
+                font-weight: 600;
+                color: $heading;
+            }
+        }
+
+        .total-summ-bottom-parent{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 1.3rem;
+            background: #FAFAFA;
+            border-top: 1px solid #E6E6E6;
+            padding: 1.8rem 1.5rem;
+            .tittle-left{
+                font-size: 2rem;
+                font-weight: 600;
+                color: $heading;
+                margin-bottom: 0px;
+            }
+            .tittle-right{
+                font-size: 2rem;
+                font-weight: 800;
+                color: $primary;
+                margin-bottom: 0px;
+            }
+
+        }
+
+    }
+}
+
+
+
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid rgba(34, 34, 34, 0.2);
+    border-radius: 0.3rem;
+    outline: 0;
+  }
+
+
+
+
+//   delivery assign modal radio
+.delivery-assign-modal{
+    .modal-body{
+        padding: 2px;
+    }
+    .modal-header{
+        border-bottom: none !important;
+    }
+
+}
+
+.delivery-assign-radio{
+    .delivery-radio-list{
+        .custom-radio input:checked ~ .checkmark{
+            background: white;
+            border: 1px solid $primary;
+        }
+        .custom-radio{
+            height: 7.5rem;
+            margin-bottom: 2rem;
+            .checkmark{
+                width: 100%;
+                border-radius: 10px;
+                height: 7.5rem;
+                display: flex;
+                align-items: center;
+                padding: 1rem;
+            }
+        }
+
+    }
+   
+
+}
+
+
+
+
+
+.sleect-delivery-radio-p-card {
+    display: flex;
+    align-items: center;
+    .image-block-card-radio {
+        min-width: 5.5rem;
+        max-width: 5.5rem;
+        height: 5.5rem;
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right-side-contentof-card {
+        padding: 0px 1.6rem;
+        width: 35rem;
+        .tittle-fedd{
+            font-size: 1.8rem;
+            font-weight: 500;
+            color: #333;
+           
+        }
+        .address-icon-s{
+            font-size: 1.4rem;
+            font-weight: 400;
+            color: $primary;
+            margin-bottom: 0px;
+            
+            margin-top: 0.8rem;
+            svg{
+                position: relative;
+                top: -0.2rem;
+            }
+        }
+    }
+}
+
+
+
+
+
+// end delivery assign modal

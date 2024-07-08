@@ -1,0 +1,212 @@
+// profile-page cssssss
+.user-profile{
+    width: 100%;
+      .profile-img-mt{
+          width: 26.1rem;
+          height: 26.1rem;
+          min-width: 26.1rem;
+          overflow: hidden;
+          border-radius: 100%;
+          margin-right: 3.0rem;
+          background: #548CFF;
+          box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.16);
+      }
+      .user-profile-detail-mt{
+          .title{
+              color: $heading;
+              font-weight: 700;
+              text-transform: capitalize;
+              font-size: 2.6rem;
+              width: 100%;
+              margin-bottom: 1.2rem;
+          }
+          .pro-email{
+              font-size: 1.6rem;
+              font-weight: 300;
+              width: 100%;
+              margin-bottom: 1.8rem;
+              border-bottom: 1px solid $border-clr;
+              padding-bottom: 1.8rem;
+              a{
+                color: $heading;
+                &:hover{
+                  color: $primary;
+                }
+              }
+          }
+          .addres{
+             
+              font-size: 1.6rem;
+              width: 100%;
+              margin-bottom: 0.8rem;
+              color: $heading;
+              font-weight: 500;
+              span{
+                  color: $heading;
+                  font-weight: 300;
+              }
+              a{
+                color: $heading !important;
+              }
+          }
+          .profile-btn {
+            padding: 0rem 1rem !important;
+            height:5rem;
+            line-height:5rem;
+            width: 15rem;
+            border-radius: 5px;
+            margin-top: 0.5rem;
+            font-size: 1.6rem;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+      }
+  
+  }
+  
+  .user-profile-detail-mt {
+    width: 100%;
+    .profile-btn {
+        padding: 0rem 1rem !important;
+        height:5rem;
+        line-height:5rem;
+        min-width: 15rem;
+        border-radius: 5px;
+        margin-top: 1rem;
+        font-size: 1.6rem;
+        font-weight: 600;
+        text-transform: capitalize;
+      }
+  }
+  
+  .btn-all-mt {
+      margin-top: 2.5rem;
+  }
+
+  @media (max-width: 767px) {
+      .user-profile .profile-img-mt {
+        margin-bottom:3.0rem;
+      }
+  }
+  
+  
+  // end profile pages css
+
+
+
+//   edit profileee csssss
+/* input file style */
+
+.input-file {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+  + .js-labelFile {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 10px;
+    cursor: pointer;
+    .icon:before {
+      //font-awesome
+      content: "\f055";
+    }
+    &.has-file {
+      .icon:before {
+        //font-awesome
+        content: "\f058";
+        color: #999 ;
+      }
+    }
+  }
+} 
+
+.upload-file {
+    position: relative;
+    min-height: 130px !important;
+	
+	label{
+		margin-top: 30px !important;
+		span{
+			font-size: 16px;
+			font-weight: 400;
+			// font-family: $font-family-Open-Sans;
+		}
+	}
+	.icon{
+		position: absolute;
+		top: 30px!important;
+		left: 0px!important;
+		right: 0px!important;
+		text-align: center!important;
+		font-size: 30px;
+		color: #999999!important;
+    }
+   
+}
+.upload-file-2 {
+    position: relative;
+    min-height: 130px !important;
+	
+	label{
+		span{
+			font-size: 16px;
+			font-weight: 400;
+			// font-family: $font-family-Open-Sans;
+		}
+	}
+    i.fas.fa-image{
+        font-size: 30px;
+        color: $text-9;
+    }
+}
+
+.edit-profile-page {
+  margin-top: 0.9rem;
+    margin-bottom: 0.7rem;
+}
+
+
+.sec-custom-us-mh-all {
+  padding: 10rem 0rem;
+}
+
+.rtl{
+  .user-profile {
+    .profile-img-mt{
+      margin-left: 3.0rem;
+      margin-right: 0rem;
+    }
+  }
+  .store-profile-text-mt{
+    margin-left: 0rem;
+    margin-right: 3rem;
+  }
+  .user-profile {
+    .user-profile-detail-mt {
+      .addres{
+        display: flex;
+        span{
+          padding-right: 4px;
+        }
+      }
+    }
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+}
+
+

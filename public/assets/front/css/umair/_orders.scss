@@ -1,0 +1,164 @@
+.inner-wrapper-orders{
+    .order-no-time-main {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom: 1px solid #DDDDDD;
+        padding: 1.4rem 1.5rem 1.4rem;
+        @include medium-991{
+            flex-direction: column;
+            align-items: center !important;
+        }
+     
+        .wrapper-inner-time-no{
+            .order-number {
+                font-size: 1.8rem;
+                font-weight: 700;
+                color: $heading;
+                margin-bottom: 0px;
+            }
+            .order-time-tittle-{
+                font-size: 1.8rem;
+                color: $heading;
+                font-weight: 600;
+                span{
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+
+.main-area-my-orders {
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    border: 1px solid #E6E6E6;
+    overflow: hidden;
+}
+
+.three-tittles-main-od{
+    margin-left: 1.5rem;
+    @include medium-991{
+        text-align: center;
+    }
+  
+    .tittle-sub-name {
+        font-size: 1.6rem;
+        font-weight: 400;
+        margin-bottom: 2px;
+        color: #666666;
+        .book-time-span{
+            color: $heading;
+            font-weight: 700;
+        }
+    }
+  
+}
+
+.bottom-conent-image-des-main {
+   
+    .inner-image-con{
+        padding: 1.5rem 1.5rem;
+        width: 100%;
+        @include medium-991{
+            flex-direction: column;
+        }
+        @include m-575{
+            padding: 2rem 1rem 1rem;
+        }
+    }
+}
+
+.image-my-orders {
+    min-width: 11.0rem;
+    width: 11.0rem;
+    height: 10.9rem;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.right-two-boxes-main-od{
+        .status-tittle-od{
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: $heading;
+            margin-bottom: 0px;
+            .accpet-span{
+                color: $primary;
+                font-size: 1.8rem;
+                font-weight: 800;
+            }
+        }
+    
+
+}
+
+
+.status-top-space-order {
+    margin-top: 1.9rem;
+}
+
+
+
+.right-two-boxes-main-od .boxes-od-22{
+    .accpet-span{
+        font-weight: 700 !important;
+    }
+}
+
+
+.status-green {
+    color: $primary !important;
+}
+
+
+
+.status-blue{
+    color: #0241ED !important;
+}
+
+.status-pink{
+    color: #E502ED !important;
+}
+
+
+.status-purple{
+    color: #62628A !important;
+}
+
+
+.status-red{
+    color: #FF0000 !important;
+}
+
+
+
+.order-tabssss {
+   @include medium-991{
+    flex-direction: column;
+    border-radius: 20px !important;
+   }
+   .nav-item {
+    @include medium-991{
+        width: 100% !important;
+       }
+   
+    }
+}
+
+
+
+.rtl{
+    .right-two-boxes-main-od{
+        border-left: none;
+        border-right: 1px solid #7A7AAE;
+    }
+    .three-tittles-main-od .tittle-sub-name{
+        display: flex;
+        @include medium-991{
+            display: inherit;
+        }
+    }
+    .three-tittles-main-od .tittle-sub-name .book-time-span{
+        padding-right: 0.4rem;
+    }
+}

@@ -1,0 +1,109 @@
+// delivery area
+
+.delivery-areas-dasboard-card {
+    border: 1px solid #E6E6E6;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    position: relative;
+    .left-side-tittles {
+        width: 87%;
+        .tittle-name{
+            font-size: 2.2rem;
+            font-weight: 500;
+            color: $heading;
+            margin-bottom: 0.8rem;
+        }
+        .tittle-of-price{
+            font-size: 2rem;
+            margin-bottom: 0px;
+            font-weight: 800;
+            color: $primary;
+
+        }
+    }
+    .right-side-block-icons {
+        position: absolute;
+        top: 50%;
+        right: 2.5rem;
+        transform: translateY(-50%);
+        .box-1-icon{
+            margin: 0.4rem 0rem;
+            svg{
+                &:hover{
+                    rect{
+                        fill: $heading;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.manage-rider-dasboard-card{
+    border: 1px solid #E6E6E6;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    position: relative;
+    .image-block-left-sider {
+        display: flex;
+        align-items: center;
+        .rider-manage-img {
+            min-width: 5.8rem;
+            max-width: 5.8rem;
+            height: 5.8rem;
+            overflow: hidden;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .left-side-tittles {
+            width: 75%;
+            padding: 0px 1.5rem;
+            .tittle-name{
+                font-size: 1.8rem;
+                font-weight: 500;
+                color: $heading;
+                margin-bottom: 0.7rem;
+                text-transform: capitalize;
+            }
+            .tittle-of-loc {
+                font-size: 1.4rem;
+                margin-bottom: 0px;
+                color: $primary;
+                svg{
+                    position: relative;
+                    top: -0.1rem;
+                }
+            }
+        }
+    }
+    .right-side-block-icons {
+        position: absolute;
+        top: 50%;
+        right: 2rem;
+        transform: translateY(-50%);
+        .box-1-icon{
+            margin: 0.4rem 0rem;
+            svg{
+                &:hover{
+                    rect{
+                        fill: $heading;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+.manage-rider-edit-tittle-form {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #333;
+}

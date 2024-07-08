@@ -1,0 +1,99 @@
+
+.artical-page-carddd{
+    .artical-main-card-left {
+        .inner-artical-area {
+            .imag-artical{
+                min-width: 46.0rem;
+                height: 16.3rem;
+                overflow: hidden;
+            }
+        }
+    }
+    .content-area-artical-left {
+        padding: 0.8rem 2rem 0.2rem;
+        background: white;
+        .descd-artical-p {
+            .desc-p {
+                font-size: 1.8rem;
+                font-weight: 400;
+                padding-left: 2.5rem;
+                color: #333;
+                margin-bottom: 0px;
+                line-height: 2.8rem;
+                height: 5.6rem;
+                overflow: hidden;
+            }
+        }
+        .number-main-area {
+            .top-number{
+                font-size: 2.6rem;
+            }
+            .bottom-number{
+                font-size: 2.6rem;
+            }
+        }
+    }
+}
+
+
+// artical detail page
+.artical-detail-pagee{
+    .content-area-artical-left {
+        .number-main-area {
+            .line-set-between{
+                width: 2.5rem;
+                margin: 0 auto;
+            }
+        }
+    }
+    .content-area-artical-left {
+        padding: 1rem 0rem 0.7rem;
+        .descd-artical-p {
+            .desc-p{
+                font-size: 2.4rem;
+                font-weight: 700;
+                padding-left: 1.5rem;
+                color: #333;
+            }
+        }
+         .number-main-area {
+            .bottom-number {
+                font-size: 3.2rem;
+                text-align: center;
+            }
+             .top-number {
+                font-size: 3.2rem;
+                text-align: center;
+                
+            }
+        }
+    }
+}
+
+
+.detail-page-dessss{
+    p{
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: $text-p;
+        line-height: 2.8rem;
+        margin-bottom: 3rem;
+        margin-top: 0.6rem;
+        &:last-child{
+            margin-bottom: 0px;
+        }
+    }
+}
+.detail-padge-imagee{
+    max-width: 70.5rem;
+    height: 25.0rem;
+    overflow: hidden;
+    border-radius: 30px;
+    margin: 0 auto;
+    @include large-1440{
+        max-width: unset;
+        height: unset;
+    }
+}
+
+// end artical detail page

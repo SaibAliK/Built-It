@@ -1,0 +1,122 @@
+.check-out-box-shadow-div{
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16%);
+    background: white;
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 2.2rem 2.5rem 2rem;
+}
+
+.custom-heading-check-out{
+    .tittle {
+        font-size: 2.6rem;
+        font-weight: 700;
+        color: #333;
+        text-transform: capitalize;
+    }
+    .add-addres-chec {
+        font-size: 2.2rem;
+        font-weight: 700;
+        padding-top: 10px;
+        color: #999999;
+        text-decoration: underline !important;
+        display: inline-block;
+        &:hover{
+            color: $primary;
+            text-decoration: underline !important;
+        }
+    }
+}
+
+
+.check-out-cart-page-main{
+    .wrapper-card-cart{
+        border-bottom: 1px solid $primary;
+        padding-bottom: 2rem;
+        margin-bottom: 2.2rem;
+        @include m-375{
+            flex-direction: column;
+        }
+        &:last-child{
+            margin-bottom: 0px;
+            border-bottom: none;
+            padding-bottom: 0px;
+        }
+        .image-cart{
+            width: 15.0rem;
+            min-width: 15.0rem;
+            height: 13.3rem;
+            overflow: hidden;
+            margin-right: 1.5rem;
+        }
+    }
+
+}
+
+.price-tittle-cart-check {
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-top: 1.8rem;
+    color: $primary;
+    margin-bottom: 0px;
+}
+
+
+.detail-address-save-check{
+    .ul-main-check{
+        .li-tiitle-ee {
+            font-size: 2.2rem;
+            font-weight: 300;
+            color: #333;
+            text-transform: capitalize;
+            span{
+                color: $text-9;
+            }
+        }
+    }
+}
+
+
+.checkout-box-ed-del{
+    .fa, .fas{
+        font-size: 1.9rem;
+        color: $text-9;
+        &:hover{
+            color: $primary;
+        }
+    }
+    .line-bg-edit-del {
+        display: inline-block;
+        height: 2rem;
+        width: 1px;
+        background: $primary;
+        margin: 0px 1.6rem;
+        position: relative;
+        top: 0.3rem;
+    }
+}
+
+
+.rtl {
+    .custom-radio .checkmark{
+        right: 0px;
+        left: auto;
+    }
+    .custom-radio{
+        padding-right: 3.5rem;
+        padding-left: 0px;
+    }
+    .check-out-cart-page-main .wrapper-card-cart .image-cart{
+        margin-right: 0rem;
+        margin-left: 1.5rem;
+        @include m-375{
+            margin-left: 0px;
+        }
+
+    }
+    .detail-address-save-check .ul-main-check .li-tiitle-ee{
+        display: flex;
+        span{
+            padding-right: 0.4rem;
+        }
+    }
+}

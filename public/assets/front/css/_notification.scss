@@ -1,0 +1,139 @@
+.noti-setting{
+    padding-bottom: 3rem;
+}
+.seting-t{
+    font-size: 1.6rem;
+    font-weight:500;
+    color: $heading;
+    line-height: 1.9rem;
+}
+
+.clear-all{
+    font-size: 1.6rem;
+    font-weight:500;
+    color: $heading;
+    padding: 0rem;
+    line-height: 1.9rem;
+    outline: 0 !important;
+    border: none;
+    outline: none;
+    background: none;
+    i{
+        color: $primary;
+    }
+    &:hover{
+        color: $secondary;
+    }
+}
+
+.notification-box{
+    .img-box{
+        width: 5.4rem;
+        min-width: 5.4rem;
+        height: 5.4rem;
+        border-radius: 100px;
+        border: 1px solid $primary;
+        overflow: hidden;
+        margin-right: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .not-detail{
+        .title{
+            font-size: 1.6rem;
+            font-weight:700;
+            color: $heading;
+            line-height: 2.4rem;
+        }
+        .des{
+            font-size: 1.6rem;
+            font-weight:300;
+            color: $text-9;
+            padding-top: 0.7rem;
+            line-height: 2.4rem;
+        }
+
+        .time-noti{
+            font-size: 1.4rem;
+            color:$text-p;
+            font-weight: 300;
+            min-width: 8rem;
+        }
+        .time-del{
+            font-size: 1.2rem;
+            color:$text-9;
+            border: none;
+            background: none;
+            margin-bottom: 1.3rem;
+            outline: 0 !important;
+            &:hover{
+                color: $primary;
+            }
+        }
+    }
+}
+.notification-sec-custom {
+    padding: 10rem 0rem;
+}
+
+// supplier notification
+.notification-us-btn{
+    margin-top: 1.4rem;
+    .secondary {
+        font-size: 1.6rem !important;
+        font-weight: 500;
+        color: #ffffff;
+        background: $secondary;
+        height: 4rem;
+        border-radius: 50px;
+        display: inline-block;
+        min-width: 13.0rem !important;
+        padding: 0px 10px !important;
+        text-transform: capitalize;
+        @include m-575{
+            padding: 0px 25px !important;
+            margin-top: 0rem;
+            margin-left: 1rem;
+        }
+        &:hover{
+            background: $primary;
+        }
+      
+    }
+    .serch-btn-mt{
+        min-width: 13.0rem;
+        height: 4rem;
+        margin-right: 0.7rem;
+        padding: 0px 10px !important;
+        @include m-575{
+            padding: 0px 25px !important;
+            margin-right: 0rem;
+        }
+
+
+    }
+}
+// end supplier notification
+
+.rtl{
+    .notification-box {
+        .img-box{
+            margin-left: 1.5rem;
+            margin-right: 0px;
+        }
+        .not-detail {
+            .time-noti{
+                direction: ltr;
+            }
+        }
+    }
+    .notification-us-btn {
+        .serch-btn-mt{
+            margin-right: 0rem;
+            margin-left: 0.7rem;
+        }
+    }
+    
+}

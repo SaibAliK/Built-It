@@ -1,0 +1,87 @@
+// Mixins
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin border-outline-none {
+    border: none;
+    outline: none;
+}
+
+
+@mixin large-1740 {
+    @media (max-width: 1740px) {
+        @content;
+    }
+}
+
+@mixin large-1440 {
+    @media (max-width: 1440px) {
+        @content;
+    }
+}
+@mixin large-mid-1340 {
+    @media (max-width: 1340px) {
+        @content;
+    }
+}
+
+@mixin large-mid-1300 {
+    @media (max-width: 1300px) {
+        @content;
+    }
+}
+
+@mixin large-1199 {
+    @media (max-width: 1199px) {
+        @content;
+    }
+}
+
+@mixin medium-991 {
+    @media (max-width: 991px) {
+        @content;
+    }
+}
+
+@mixin small-767 {
+    @media (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin m-575 {
+    @media (max-width: 575px) {
+        @content;
+    }
+}
+
+@mixin m-425 {
+    @media (max-width: 425px) {
+        @content;
+    }
+}
+@mixin m-400 {
+    @media (max-width: 400px) {
+        @content;
+    }
+}
+
+@mixin m-375 {
+    @media (max-width: 375px) {
+        @content;
+    }
+}
+
+@mixin m-325 {
+    @media (max-width: 325px) {
+        @content;
+    }
+}
+@mixin m-285 {
+    @media (max-width: 285px) {
+        @content;
+    }
+}

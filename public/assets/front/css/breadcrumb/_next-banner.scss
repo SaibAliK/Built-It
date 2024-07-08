@@ -1,0 +1,113 @@
+.next-banner{
+    background: url(../img/home-banner-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40rem;
+    position: relative;
+    margin-top: -8rem;
+    @include m-575{
+        margin-top: 10rem;
+    }
+
+}
+.bred-title{
+    font-weight: 800;
+    font-size: 5rem;
+    color: $heading;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10.1rem;
+}
+
+.breadcrumb{
+    background: none;
+    padding-left: 0.3rem;
+    padding-top: 0px;
+    justify-content: center;
+    .breadcrumb-item{
+        font-size: 3.2rem;
+        color: $white;
+        font-weight: 600;
+        text-transform: capitalize;
+        // padding-left: 1.5rem;
+        padding-left: 0;
+       a{
+        font-size: 2rem;
+        color: $heading;
+        font-weight: 400;
+        text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.30%);
+        .fa-home{
+            font-size: 2.0rem;
+            color: $white;
+            &:hover{
+                color: $primary;
+            }
+        }
+        
+        &:hover{
+            color: $primary;
+        }
+       }
+    }
+}
+.rtl .breadcrumb{
+    .breadcrumb-item{
+        padding-left: 0rem;
+        // padding-right: 1.5rem;
+    }
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: $heading;
+    font-family: FontAwesome;
+    // content: "\f105";
+    content: "\f105";
+    // padding-right: 1.5rem;
+    padding: 0 1.4rem;
+    font-size: 2rem;
+    // opacity: 0.15;
+}
+.rtl .breadcrumb-item + .breadcrumb-item::before {
+    // transform: scaleX(-1)
+}
+
+.image-banner-absolute.bread-cum-toy-img{
+    position: absolute;
+    bottom: -5.5rem;
+    right: 21rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    @include large-1440{
+        right: 0px;
+    }
+    @include m-575{
+        width: 60%;
+    }
+}
+
+
+.rtl{
+    .image-banner-absolute.bread-cum-toy-img{
+        left: 21rem;
+        right: auto;
+        @include large-1440{
+            left: 0px;
+            
+        }
+        @include m-575{
+            width: 60%;
+        }
+    }
+}
+
+
+.rtl .breadcrumb{
+    padding-right: 0px !important;
+}

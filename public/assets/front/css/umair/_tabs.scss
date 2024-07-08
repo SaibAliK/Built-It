@@ -1,0 +1,86 @@
+// tabsssssssssss partial
+.nav-pills {
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 0px;
+    position: relative;
+    border: 1px solid #E6E6E6;
+    background: #FAFAFA;
+    // box-shadow: 0px 5px 0px #dddddd;
+
+ 
+    @include m-425{
+      flex-wrap: unset;
+      flex-direction: column;
+      border-radius: 5px;
+    }
+  }
+  .custom-tab {
+    width: 100%;
+    color: $heading;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0px;
+    @include m-425{
+      width:33.3%;
+      border-bottom: 1px solid $border-color;
+    }
+    .nav-link{
+      color: $heading;
+      width: 100%;
+      text-transform: capitalize;
+      height: 8.2rem;
+      font-weight: 500;
+      line-height: 5rem;
+      border-radius: 0px;
+      font-size: 1.6rem;
+      background: white;
+      &:hover,&.active{
+        background: $white;
+        color: $white;
+        transition: ease-in 0.3s;
+       
+      }
+    }
+    
+    
+  }
+
+
+  // end tab partial
+  
+
+
+.register-tabs .nav-item {
+  width: 50%;
+  @include m-575{
+    width: 100%;
+  }
+}
+
+.register-tabs .nav-item .nav-link:hover, .register-tabs .nav-item .nav-link.active {
+  background: $white;
+  border-top: 4px solid $primary;
+  color: #333;
+ 
+}
+
+.width-fix {
+  max-width: 70.5rem;
+}
+
+.register-tabs .nav-item .nav-link {
+  height: 8.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 4px solid transparent;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 0px;
+}

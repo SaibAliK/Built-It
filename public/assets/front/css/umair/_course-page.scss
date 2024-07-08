@@ -1,0 +1,1575 @@
+// course page css start here 
+
+.content-parent-block-quiz{
+    .tittle-quiz {
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: #333;
+        margin-bottom: 1rem;
+    }
+    .tittle-total-que{
+        font-size: 1.4rem;
+        color: $text-p;
+        font-weight: 500;
+        margin-bottom: 2.3rem;
+    }
+}
+
+.question-radio-button-main{
+    margin-bottom: 3rem;
+    .wrapper-border{
+        border: 1px solid #ddd;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        padding: 0px 1.6rem;
+        margin-bottom: 1rem;
+        .custom-radio{
+            width: 100%;
+            margin-bottom: 0rem;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            .checkmark {
+                top: 49%;
+                transform: translateY(-50%);
+           
+            }
+        }
+
+    }
+  
+
+}
+
+.skip-and-que-main {
+    display: flex;
+    align-items: center;
+    margin-top: 1.2rem;
+    justify-content: space-between;
+    .tittle-total-que{
+        margin-bottom: 0px;
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: $heading;
+    }
+    .tittle-skip{
+        margin-bottom: 0px;
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: $heading;
+        text-transform: capitalize;
+        &:hover{
+            color: $primary;
+        }
+
+    }
+}
+
+
+.check-result-main-block{
+    .box-correct-ans {
+        height: 5rem;
+        display: flex;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        align-items: center;
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        .tittle-cor{
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: $heading;
+            text-transform: capitalize;
+            margin-bottom: 0px;
+            svg{
+                margin: 0rem 0.3rem;
+            }
+        }
+    }
+    .dec-p-about-question p {
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        font-weight: 300;
+        color: #666;
+        margin-bottom: 1.8rem;
+    }
+}
+
+
+.practive-test-tittle {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #000;
+    line-height: 2.4rem;
+    margin-bottom: 1rem;
+    span.tittle {
+        color: #666;
+        font-weight: 300;
+    }
+}
+
+.clas-custom-mb-quiz{
+    margin-bottom: 1.5rem !important;
+}
+
+
+
+
+// end course page csss
+
+
+
+
+
+// course detail page csss
+
+.video-lect-detail {
+    height: 46.7rem;
+    background: #000;
+    margin-bottom: 5rem;
+}
+
+.couse-tittle-lect-dt-main{
+    .tittle-download-block {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        .tittle-h2 {
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: #333;
+        }
+        
+    }
+    .author-namee{
+        font-size: 1.4rem;
+        color: $text-p;
+        font-weight: 300;
+        margin-top: 0.5rem;
+    }
+}
+
+
+.add-course-tech-accord{
+    .btn-link{
+        color: #000 !important;
+        padding: 0px !important;
+        position: relative;
+        font-size: 1.3rem !important;
+        height: 2rem;
+        
+        &:hover{
+            text-decoration: none !important;
+        }
+        .bottom-tittle-ss-qe{
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: #666;
+            margin-top: 0.5rem;
+            margin-bottom: 0px;
+            .seprater-line {
+                display: inline-block;
+                width: 1px;
+                height: 1.5rem;
+                background: #666666;
+                vertical-align: middle;
+                margin: 0rem 0.5rem;
+            }
+        }
+        .quest-tittle {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #000;
+        }
+        .download-btn-dt {
+            position: absolute;
+            right: 0px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .arrow-down-accord{
+            position: absolute;
+            right: 0px;
+            display: none;
+            top: 50%;
+            transform: translateY(-50%);
+
+        }
+    }
+
+}
+
+
+.custom-accordian-lec-dt{
+    .btn-link:focus, .btn-link.focus{
+        text-decoration: none !important;
+    }
+    .card {
+        border: none;
+        margin-bottom: 1.5rem;
+        border-radius: 5px !important;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16%);
+        background: white;
+    }
+    .card-header {
+        padding: 1rem 1.5rem;
+        margin-bottom: 0;
+        background-color: #F5F5F5;
+        border-bottom: none;
+       
+    }
+    .btn-link{
+        color: #000 !important;
+        padding: 0px !important;
+        position: relative;
+        font-size: 1.3rem !important;
+        
+        &:hover{
+            text-decoration: none !important;
+        }
+        .bottom-tittle-ss-qe{
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: #666;
+            margin-top: 0.5rem;
+            margin-bottom: 0px;
+            .seprater-line {
+                display: inline-block;
+                width: 1px;
+                height: 1.5rem;
+                background: #666666;
+                vertical-align: middle;
+                margin: 0rem 0.5rem;
+            }
+        }
+        .quest-tittle {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #000;
+        }
+        .download-btn-dt {
+            position: absolute;
+            right: 0px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .arrow-down-accord{
+            position: absolute;
+            right: 0px;
+            display: none;
+            top: 50%;
+            transform: translateY(-50%);
+
+        }
+    }
+    .card-body{
+        padding: 1.25rem 1.5rem 1.25rem 1.5rem;
+      
+        .inner-body-left-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1.5rem;
+            &:last-child{
+                margin-bottom: 0px;
+            }
+            .tittle-parent-div{
+                .tittle-dec-body {
+                    font-size: 1.2rem;
+                    font-weight: 500;
+                    color: #333;
+                    width: 30rem;
+                    line-height: 1.8rem;
+                }
+                .sub-tittle-videos-name{
+                    font-size: 1.2rem;
+                    font-weight: 500;
+                    color: #666;
+
+                }
+            }
+        }
+    }
+
+}
+ 
+
+.download-btn-dt{
+    &:hover{
+        g{
+            stroke: $secondary;
+        }
+        circle {
+            fill: $secondary;
+        }
+        path {
+            fill: white;
+            stroke: white;
+        }
+    }
+}
+
+
+.custom-accordian-lec-dt .btn-link.collapsed{
+    .download-btn-dt{
+        display: none;
+    }
+    .arrow-down-accord{
+        display: block;
+    }
+
+}
+
+
+// download tab csss here 
+.inner-download-mid-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.2rem;
+    .tittle-dec-body {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #333;
+        width: 30rem;
+        line-height: 1.8rem;
+    }
+
+    .sub-tittle-videos-name {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #666;
+    }
+
+}
+
+
+
+// end download tab
+
+
+
+
+
+// end course detail page
+
+
+
+
+
+// model custom css
+
+.custom-modal-for-all-us{
+    padding: 0px !important;
+    .modal-body {
+        padding: 3rem 1.5rem 2.5rem 1.5rem;
+    }
+    .close {
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        font-size: 2.6rem;
+        font-weight: 500;
+        z-index: 9;
+        outline: 0 !important;
+    }
+    .modal-content{
+        border: none;
+        border-radius: 5px;
+        outline: 0;
+
+    }
+    .tittle-download-md {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #000;
+        margin-bottom: 2rem;
+        &:hover{
+            color: $primary;
+            svg path{
+                fill: $primary;
+            }
+        }
+        svg{
+            margin-right: 0.6rem;
+        }
+    }
+    .tittle-cancel-md{
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #000;
+        &:hover{
+            color: $primary;
+            svg path{
+                fill: $primary;
+            }
+        }
+        svg{
+            margin-right: 0.6rem;
+            position: relative;
+            top: -0.1rem;
+        }
+
+    }
+
+}
+
+
+.more-content-parent-lec{
+    .tittle-here {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: #333;
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        .dot {
+            width: 0.5rem;
+            height: 0.5rem;
+            background: #000;
+            margin-right: 0.5rem;
+            display: inline-block;
+            border-radius: 50px;
+        }
+    }
+}
+
+
+.course-detail-lec-tabs{
+    border-top: 1px solid #ddd;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+
+.main-block-more-modal-1{
+    padding: 0px 1.5rem;
+    .disb-p-modal-1{
+        p{
+            font-size: 1.4rem;
+            color: #666;
+            font-weight: 300;
+            margin-bottom: 3rem;
+        }
+    }
+
+
+}
+
+
+.resource-modal-main-body{
+    padding: 0px 1.5rem;
+    .upload-btn-wrapper {
+        position: relative;
+        overflow: hidden;
+       
+      }
+      
+      .btn {
+        border-bottom: 1px solid #ddd;
+        color: $text-p !important;
+        width: 100%;
+        margin-bottom: 2.6rem;
+        height: 4rem;
+        background-color: white;
+        padding: 0rem 0rem 1rem !important;
+        border-radius: 0px;
+        font-size: 1.5rem;
+        font-weight: 300;
+        justify-content: flex-start !important;
+      }
+      
+      .upload-btn-wrapper input[type=file] {
+        font-size: 100px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+      }
+
+      .label-res-img {
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        color: #333;
+        margin-bottom: 0px;
+    }
+    .resource-tittle-1 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 2rem;
+    }
+
+}
+
+
+.announce-ment-body-main{
+    padding: 0px 1.5rem;
+    .tittle-announce-ment {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 2rem;
+    }
+    .inner-parent-card {
+        display: flex;
+        align-items: center;
+        .image-card- {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 5.8rem;
+            max-width: 5.8rem;
+            height: 7.5rem;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-right: 1rem;
+        }
+        .tittle {
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: #333;
+        }
+        .month-name{
+            font-size: 1.4rem;
+            font-weight: 400;
+            margin-bottom: 0px;
+            color: #666;
+
+        }
+    }
+
+    .main-card-blog-ann{
+        margin-bottom: 3rem;
+
+    }
+
+    .annou-dec-p{
+        margin-top: 1.7rem;
+        p{
+            font-size: 1.4rem;
+            font-weight: 300;
+            line-height: 2.4rem;
+            margin-bottom: 0px;
+            color: #666;
+
+        }
+    }
+
+
+
+
+}
+
+.certified-com-body{
+    padding: 0px 1.5rem;
+    .tittle-download-cer {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #000;
+        margin-bottom: 2rem;
+        img{
+            margin-right: 0.3rem;
+        }
+    }
+
+}
+
+
+.cerified-image-here {
+    max-width: 31.9rem;
+    height: 24.6rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+
+
+
+// end model 
+
+
+
+
+// accadme home screen pages cssss
+
+.teacher-card-main-parent.home-screen-acad-card{
+    margin-bottom: 3rem;
+    .button-card-2-acad{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 1.7rem;
+        .btn-primary{
+            width: 8.8rem;
+            background: #D1F5EA;
+            border: 1px solid #D1F5EA;
+            color: $primary !important;
+            &:hover{
+                color: white !important;
+            }
+
+        }
+    }
+   
+
+}
+
+.accadmy-home-sc-tittle{
+    margin-bottom: 3.6rem;
+    .tittles{
+        font-size: 3rem;
+        font-weight: 600;
+        color: #000;
+        text-transform: capitalize;
+    }
+    .view-detail-bttn {
+        font-size: 1.8rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        text-decoration: underline;
+        &:hover{
+            text-decoration: underline !important;
+            color: $secondary;
+        }
+
+
+    }
+
+}
+
+
+.acadme-home-scren-card{
+    margin-bottom: 3rem;
+    .inner-card-course{
+        height: 36.7rem;
+         .content-area-card-main .price-of-book {
+            font-size: 2.1rem;
+            font-weight: 600;
+            color: #333;
+            margin-top: 1.4rem;
+            margin-bottom: 0.2rem;
+        }
+
+    }
+   
+     .button-card-2-acad {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 0px 1.4rem;
+        .btn-primary {
+            width: 10.8rem;
+            background: #D1F5EA;
+            border: 1px solid #D1F5EA;
+            color: #19CB98 !important;
+            height: 3rem;
+            padding: 0px !important;
+            &:hover{
+                color: white !important;
+            }
+        }
+        
+    }
+
+}
+
+
+.techer-acadmey-card{
+    .acadme-home-scren-card .inner-card-course {
+        height: 34.7rem;
+        overflow: inherit;
+    }
+    .acadme-home-scren-card .button-card-2-acad{
+        margin-top: 0.6rem;
+        .btn-primary{
+            z-index: 99999;
+            position: relative;
+            justify-content: flex-start;
+            padding: 0px 1rem !important;
+
+        }
+        .dropdown-menu{
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            top: -1rem !important;
+            padding-top: 0.8rem;
+            overflow: hidden;
+            background: white;
+            .listing-drop-course-p {
+                border-bottom: 1px solid #DDDDDD;
+                &:last-child{
+                    border: none;
+                }
+                .dropdown-item {
+                    padding: 3px 1rem;
+                    font-size: 1.4rem;
+                    font-weight: 400;
+                    color: #333;
+                    text-align: left;
+                    &:hover{
+                        color: white;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+.notification-icon-cad {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    width: 3rem;
+    height: 3rem;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid $secondary;
+    &:hover{
+        background: $primary;
+        border: 1px solid $primary;
+        svg image{
+            filter: brightness(99);
+        }
+    }
+}
+
+
+
+
+// end accadme home screens
+
+
+
+
+
+// manage card cssss start here 
+.manage-card-teacher{
+    margin-bottom: 3rem;
+    .button-card-2-acad{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 0rem;
+        .btn-primary{
+            width: 8.8rem;
+            background: #D1F5EA;
+            border: 1px solid #D1F5EA;
+            color: $primary !important;
+            &:hover{
+                color: white !important;
+            }
+
+        }
+    }
+    .wrapper-card-teacher .content-teacher-card{
+        height: 12.2rem;
+        .name-tittle {
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: #333;
+            margin-top: 0.4rem;
+            text-transform: capitalize;
+            margin-bottom: 0px;
+        }
+    }
+
+}
+
+
+.purschase-price-tittle {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 0px;
+    margin-top: 0.8rem;
+
+    .span-tittle{
+        font-weight: 300;
+        color: $text-p;
+    }
+}
+
+
+// end manage card here 
+
+
+
+
+// manage addd cssss start here
+
+.manage-adds-card-main-us{
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16%);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 3rem;
+    @include m-575{
+        max-width: 300px;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+    .inner-image-wrap {
+        max-width: 40.8rem;
+        height: 16.4rem;
+        overflow: hidden;
+        border-radius: 10px;
+        @include medium-991{
+            height: unset;
+        }
+    }
+    .content-body-add{
+        padding: 1.3rem 1.5rem 1.1rem;
+        .inner-body-con{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .tittle-name-add {
+                font-size: 1.4rem;
+                font-weight: 400;
+                color: #333;
+                margin-bottom: 0px;
+                .span-tit{
+                    font-weight: 300;
+                    color: #666;
+                }
+            }
+            .pay-now-tittle{
+                font-size: 1.2rem;
+                font-weight: 600;
+                color: $primary;
+                text-decoration: underline !important;
+                &:hover{
+                    color: $secondary;
+                    text-decoration: underline !important;
+                }
+
+            }
+        }
+
+    }
+
+}
+
+.adds-tittle-dashboard {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #666;
+    margin-bottom: 2.5rem;
+    .price-t{
+        font-weight: 600;
+        color: #333;
+    }
+}
+
+
+
+// end manage adss here
+
+
+
+
+// manage color cssss
+.cutom-manage-color{
+    [type='color'] {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        padding: 0;
+        width: 15px;
+        height: 15px;
+        border: none;
+        position: absolute;
+        right: 0px;
+        z-index: 99;
+        opacity: 0;
+      }
+      
+      [type='color']::-webkit-color-swatch-wrapper {
+        padding: 0;
+      }
+      
+      [type='color']::-webkit-color-swatch {
+        border: none;
+      }
+      
+      .input-style {
+        padding: 10px 0px;
+        border-radius: 0px;
+        border-bottom: 1px solid #333;
+        background-color: #fff;
+        position: relative;
+       .cutom-label-m {
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: #333;
+            margin-bottom: 0.5rem;
+            text-align: left;
+            text-transform: capitalize;
+          span {
+                font-size: 1.2rem;
+                line-height: 2rem;
+                position: relative;
+                top: 0px;
+                padding: 0 0px;
+                color: #FF0000 !important;
+            }
+        }
+        span{
+            font-size: 1.7rem;
+            font-weight: 300;
+            color: #333 !important;
+        }
+      }
+}
+
+.color-icon-svg {
+    position: absolute;
+    right: 0px;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+// end manage color
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// course detail page cssss
+.add-detail-links-dt{
+    .lisitng-of-ul{
+        border: 1px solid #DDDDDD;
+        border-top: none;
+        border-radius: 5px;
+        overflow: hidden;
+        margin-bottom: 0px;
+        .tittle-li-list{
+            text-align: center;
+            border-bottom: 1px solid #DDDDDD;
+            height: 3.8rem;
+            &:last-child{
+                border:none;
+            }
+            
+            .tittle {
+                font-size: 1.4rem;
+                font-weight: 400;
+                color: #333333;
+                width: 100%;
+                padding: 0.8rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                &:hover{
+                    background: $primary;
+                    color: white;
+                }
+                
+            }
+        }
+
+    }
+
+}
+
+
+
+.add-delet-icon-parent-cor {
+    display: flex;
+    justify-content: space-between;
+    .delet-edit-in-btn-main {
+        display: flex;
+        position: relative;
+        top: -0.4rem;
+        margin: 0px 4rem;
+
+        .box-inner-icon {
+            width: 2.4rem;
+            min-width: 2.4rem;
+            height: 2.4rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0px 4px;
+            border: 1px solid #754FFE;
+            border-radius: 2px;
+            &:hover{
+                background: $primary;
+                border: 1px solid $primary;
+                svg path{
+                    fill: white;
+                }
+            }
+        }
+    }
+}
+
+
+.add-quiz-btn-parent-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-here-add-q{
+    margin: 0px 3rem;
+    .tittle-ha {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-decoration: underline;
+        &:hover{
+            color: $secondary;
+            text-decoration: underline !important;
+        }
+    }
+
+}
+
+
+.content-lect-dt-acord{
+    .inner-content-lect-dt-acd{
+        .button-add-quizzzz{
+            .btn {
+                display: inline-block;
+                height: 3rem;
+                font-size: 1.3rem !important;
+                line-height: 0rem !important;
+                padding: 1.4rem 1.8rem !important;
+                margin-bottom: 1rem;
+            }
+
+        }
+       
+        p{
+            font-size: 1.5rem;
+            color: $text-p;
+          font-weight: 300;
+            .tittle-bold-b{
+                color: #333;
+                font-weight: 400;
+            }
+
+        }
+    }
+
+}
+
+
+.sub-tittle-area-block-le{
+    margin-top: 3.8rem;
+    .listing-2-le{
+        margin-bottom: 2rem;
+        &:last-child{
+            margin-bottom: 0px;
+        }
+        .tittle-name-2-le{
+            font-size: 1.5rem;
+            font-weight: 400;
+            color: #333;
+        }
+        .list-items{
+            font-size: 1.5rem;
+            color: $text-p;
+            font-weight: 300;
+        }
+
+    }
+
+}
+
+.custom-radio-add-lecture{
+    margin-top: 1rem;
+    .chec-tittle-11 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #000;
+        margin-bottom: 1.7rem;
+    }
+}
+
+.delete-btn-add-ques{
+    svg{
+        path{
+            &:hover{
+                fill: $primary;
+            }
+        }
+    }
+}
+
+
+.history-inner-card-main {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2.2rem;
+    position: relative;
+    .history-delete-btn-s {
+        position: absolute;
+        top: 0.5rem;
+        right: 0px;
+       
+    }
+    .image-block-his {
+        min-width: 5.8rem;
+        width: 5.8rem;
+        height: 7.5rem;
+        margin-right: 1rem;
+        overflow: hidden;
+    }
+    .his-content-img{
+        .tec-tittle-name{
+            font-size: 1.4rem;
+            font-weight: 500;
+            text-transform: capitalize;
+            color: #333;
+            margin-bottom: 1.1rem;
+        }
+        .date-area-tittle{
+            font-size: 1.4rem;
+            font-weight: 300;
+            color: $text-p;
+        }
+    }
+}
+
+.content-p-history{
+    p{
+        font-size: 1.4rem;
+        font-weight: 300;
+        margin-bottom: 0px;
+        line-height: 2.4rem;
+        color: #333;
+    }
+}
+
+.history-page-card{
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+// end course detail page csss
+
+
+
+
+
+.manage-section-button-tb-course{
+    .tittle-sec-name {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 2.5rem;
+    }
+    .section-ul-parent-us {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #F2EFFF;
+        border-radius: 5px;
+        padding: 0rem 1.5rem;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16%);
+        margin-bottom: 1.5rem;
+        .lisitng-tit {
+            width: 100%;
+            .sec-name-tittle {
+                width: 100%;
+                display: block;
+                padding: 1.1rem 0rem;
+                font-size: 1.3rem;
+                font-weight: 500;
+                color: #333;
+            }
+            
+        }
+        .icon-listing-here {
+            display: flex;
+            align-items: center;
+            .box-icon-main{
+                margin-left: 0.8rem;
+                &:hover{
+                    svg{
+                        path{
+                            fill: $primary;
+                        }
+                        g{
+                            stroke: $primary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+.register-tabs.manage-tech-tabs{
+     .nav-item .nav-link{
+        font-size: 1.4rem;
+     }
+
+}
+
+
+.edit-qu-del-edi {
+    display: flex;
+    align-items: center;
+        .box-inner-icon {
+            width: 2.4rem;
+            min-width: 2.4rem;
+            height: 2.4rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0px 4px;
+            border: 1px solid #754FFE;
+            border-radius: 2px;
+            &:hover{
+                background: $primary;
+                border: 1px solid $primary;
+                svg path{
+                    fill: white;
+                }
+            }
+        }
+  
+}
+
+
+.paddind-0-quiz-card-body{
+    .content-lect-dt-acord .inner-content-lect-dt-acd p{
+        &:last-child{
+            margin-bottom: 0px;
+
+        }
+        
+    }
+    .card-body{
+        padding: 0px;
+    }
+    .inner-content-lect-dt-acd{
+        border-bottom: 1px solid #ddd;
+        padding: 0rem 1.5rem;
+        padding: 1.3rem 1.5rem;
+        &:last-child{
+            border-bottom: none;
+        }
+    }
+
+}
+
+.box-inner-icon-plus {
+    margin: 0px 4px;
+    &:hover{
+        svg{
+            path{
+                fill: $primary;
+            }
+        }
+    }
+}
+
+.test-discip-main-parent-content{
+    border-top: 1px solid #ddd;
+    padding: 0px 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    .tittle-de-nameee-test{
+        font-size: 1.5rem;
+        color: #666;
+        font-weight: 300;
+         .tittle-bold-b {
+            color: #333;
+            font-weight: 400;
+        }
+
+    }
+ 
+
+}
+
+
+.attachment-area-quiz .tittle {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    text-transform: capitalize;
+}
+
+.tittle-anch-cc{
+    font-size: 1.4rem;
+    color: $secondary;
+    font-weight: 400;
+    text-decoration: underline !important;
+    &:hover{
+        color: $primary;
+        text-decoration: underline !important;
+    }
+
+}
+
+.arror-right-btn-courr {
+    position: absolute;
+    right: 1rem;
+}
+
+
+.manage-course-lect-detail-main-parent{
+    .tittle-and-button-s-dtt {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 1.4rem;
+        margin-bottom: 2rem;
+        .tittle-na {
+            font-size: 1.6rem;
+            font-weight: 600;
+            margin-bottom: 0px;
+            color: #333;
+        }
+        .icon-s-ad-del-dt {
+            display: flex;
+            .box-ico {
+                width: 3rem;
+                min-width: 3rem;
+                height: 3rem;
+                margin-left: 1rem;
+                border: 1px solid $secondary;
+                border-radius: 2px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                &:hover{
+                    background: $primary;
+                    border: 1px solid $primary;
+                    svg{
+                        path{
+                            fill: white;
+                        }
+                    }
+                }
+                a{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+    
+    
+
+}
+
+
+.border-cutom{
+    border-bottom: 1px solid #ddd;
+}
+
+.tittle-dec-name-all {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #000000;
+}
+
+.decp-detail-lect-dtt{
+    padding-bottom: 0.7rem;
+    margin-bottom: 1.6rem;
+    .inner-wrapper{
+        p{
+            font-size: 1.4rem;
+            color: $text-p;
+            line-height: 2.4rem;
+            font-weight: 300;
+        }
+    }
+
+}
+
+
+
+.video-block-lect-dtt-parent{
+    .video-block-p-inner {
+        width: 31.7rem;
+        height: 17.3rem;
+        background: black;
+        border-radius: 5px;
+        margin-top: 1.8rem;
+    }
+}
+
+
+
+
+.add-icon-reso-text{
+    .box-ico {
+        width: 3rem;
+        min-width: 3rem;
+        height: 3rem;
+        margin-left: 1rem;
+        border: 1px solid $secondary;
+        border-radius: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover{
+            background: $primary;
+            border: 1px solid $primary;
+            svg{
+                path{
+                    fill: white;
+                    stroke: white;
+                }
+                line{
+                    stroke: white;
+                }
+            }
+        }
+        a{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    
+
+}
+
+
+.quiz-detail-according-seprate{
+    .content-lect-dt-acord .inner-content-lect-dt-acd p{
+        margin-bottom: 0px;
+    }
+
+}
+
+
+.heading-modal-cus-a {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+
+
+.rtl {
+    .custom-accordian-lec-dt .btn-link .download-btn-dt{
+        left: 0px;
+        right: auto;
+        direction: ltr;
+    }
+    .custom-accordian-lec-dt .btn-link .arrow-down-accord{
+        direction: ltr;
+        left: 0px;
+        right: auto;
+    }
+
+    .custom-modal-for-all-us .close{
+        left: 1rem;
+        right: auto;
+    }
+
+    .more-content-parent-lec .tittle-here .dot {
+        margin-right: 0rem;
+        margin-left: 0.5rem;
+    }
+    .video-block-dt-cour{
+        margin-right: 0rem;
+        margin-left: 3rem;
+        @include medium-991{
+            margin: 0 auto;
+            margin-bottom: 3rem;
+        }
+    }
+    .image-content-profile-btn-main .inner-left-side-con-im .image-block-parent-acd{
+        margin-right: 0rem;
+        margin-left: 1rem;
+    }
+
+    .video-block-dt-cour .preview-label-on-img .icon-play-{
+        margin-left: 0rem;
+        margin-right: 1.5rem;
+        transform: scaleX(-1);
+    }
+
+    .history-inner-card-main .image-block-his {
+        margin-right: 0rem;
+        margin-left: 1rem;
+    }
+
+    .history-inner-card-main .history-delete-btn-s {
+       left: 0px;
+        right: auto;
+    }
+
+    .cutom-manage-color .input-style .cutom-label-m{
+        text-align: right;
+    }
+
+    .color-icon-svg {
+        left: 0px;
+        right: auto;
+    }
+
+    .cutom-manage-color [type='color']{
+        right: auto;
+        left: 0px;
+    }
+
+    .arror-right-btn-courr {
+        right: auto;
+        direction: ltr;
+        left: 1rem;
+    }
+
+    .techer-acadmey-card .acadme-home-scren-card .button-card-2-acad .dropdown-menu .listing-drop-course-p .dropdown-item{
+        text-align: right;
+    }
+
+
+
+
+
+
+
+}

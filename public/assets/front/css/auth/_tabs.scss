@@ -1,0 +1,178 @@
+// register 
+.register-tabs{
+  border-radius: 0px;
+  
+  width: 100%;
+  // border: 1px solid #DDDDDD;
+  box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.16);
+  flex-wrap: nowrap;
+  margin-bottom: 2.5rem;
+  max-width: 1140px !important;
+  @include m-575{
+    flex-direction: column;
+    border-radius: 0px;
+  }
+  .nav-item{
+      width: 50%;
+      border-right: 1px solid #eeeeee;
+      position: relative;
+      .fas.fa-plus-circle {
+        position: absolute;
+        color: $heading;
+        right: 10px;
+        top: 50%;
+        transform: translate(0px, -50%);
+        font-size: 2rem;
+    }
+      @include m-575{
+        width: 100%;
+        border-right: none;
+      }
+      &:last-child{
+        border-right: none;
+      }
+      .nav-link{
+          height: 5.0rem;
+          line-height: 2rem;
+          font-size: 1.6rem;
+          font-weight: 400;
+          color: $text-p;
+          text-align: center;
+          text-transform: capitalize;
+          border-radius: 0;
+          padding: 0rem 2.5rem;
+         
+          @include flex-box;
+          &:hover,&.active{
+              background: $heading;
+              color: $white;
+              .fas.fa-plus-circle{
+                color: white;
+              }
+          }
+      }
+  }
+ 
+}
+
+.gender-title{
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: $heading;
+  line-height: 1.9rem;
+  margin-bottom: 0.5rem;
+}
+// register 
+
+.order-page-tabs{
+  .nav-pills {
+    display: flex;
+    flex-wrap: nowrap;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    overflow: hidden;
+    @include m-425{
+      flex-wrap: wrap;
+      border-radius: 10px;
+      flex-direction: column;
+    }
+  }
+
+}
+
+
+.custom-tab {
+  width: 100%;
+  color: $heading;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-right: 1px solid $border-clr;
+  &:last-child{
+    border-right: none;
+  }
+  border-radius: 0px;
+  @include m-575{
+    width:100%;
+    border-bottom: 1px solid $border-clr;
+  }
+  .nav-link{
+    color: $heading;
+    width: 100%;
+    height: 6.0rem;
+    font-weight: 500;
+    line-height: 5rem;
+    border-radius: 0px;
+    font-size: 1.6rem;
+   
+    &:hover,&.active{
+      background: $secondary;
+      color: $white;
+      transition: ease-in 0.3s;
+    }
+  }
+  
+  
+}
+
+
+.register-us-company{
+  background: #f9f9f9;
+  margin-bottom: 4rem;
+  @include m-575{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .register-tabs{
+    display: flex;
+    padding: 0px;
+    margin-bottom: 0rem;
+    box-shadow: none;
+    border: 1px solid #ddd;
+  }
+}
+
+
+.btn-custom-drop-cloth{
+    font-size: 1.6rem !important;
+    font-weight: 400 !important;
+    color: #666 !important;
+    width: 100%;
+}
+
+.register-tabs .nav-item .nav-link.active,.hover{
+.btn-custom-drop-cloth{
+  color: white !important;
+ 
+}
+
+}
+
+.cloth-drop-main{
+  padding: 0rem !important;
+  .dropdown-menu {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #222;
+    border-radius: 0px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16%);
+  }
+  .dropdown-item{
+    padding: 1.7rem 1.5rem;
+    font-size: 1.6rem;
+    color: #222;
+    font-weight: 500;
+    &:hover{
+      color: white;
+    }
+  }
+  .fas.fa-chevron-down {
+    font-size: 1.3rem;
+    position: relative;
+    top: 0px;
+    font-weight: 600;
+  }
+  
+
+}

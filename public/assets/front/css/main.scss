@@ -1,0 +1,122 @@
+@import 'responsive';
+
+html {
+    font-size: 10px;
+
+    @include large-1199 {
+        font-size: 8px;
+    }
+
+    @include small-767 {
+        font-size: 8px;
+    }
+}
+
+a {
+    &:hover {
+        text-decoration: none !important;
+    }
+}
+
+
+@import 'fonts';
+@import 'variable';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'header';
+
+@import 'banner';
+// @import 'umair/sale-banner';
+@import 'umair/subcription-pack';
+@import 'about-us/about-us';
+// @import 'about-us/terms-and-policy';
+@import 'umair/faq';
+@import 'umair/contact';
+@import 'umair/delivery-area';
+@import 'umair/artical-card';
+@import 'umair/image-gallery';
+
+@import 'input';
+@import 'banner';
+@import 'breadcrumb/next-banner';
+@import 'footer';
+@import 'button';
+@import 'pagination';
+
+@import 'umair/index-page';
+@import 'umair/manage-product-card';
+@import 'umair/profile';
+// @import 'umair/chat';
+@import 'umair/orders';
+@import 'umair/order-detail';
+// @import 'umair/delivery-area';
+@import 'umair/notify';
+// @import 'umair/order-detail';
+@import 'umair/sidenav';
+@import 'umair/payment';
+// @import 'umair/course-page';
+@import 'umair/tabs';
+// @import 'umair/address-modal';
+// @import 'umair/supplier-list-detail';
+// @import 'umair/cart';
+@import 'auth/login';
+@import 'auth/image-upload';
+@import 'rating';
+@import 'store-reviews';
+
+// @import 'umair/rating-star';
+
+@import 'rtl';
+
+
+
+
+body {
+    font-family: 'SFProDisplay';
+}
+
+.rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+
+
+
+
+
+.custom-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+
+    }
+}
+
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 555px;
+        margin: 1.75rem auto;
+    }
+}
+
+
+
+ol,
+ul,
+dl {
+    padding: 0px;
+    list-style: none;
+}
+
+.pt-5us {
+    padding-top: 0.5rem;
+}

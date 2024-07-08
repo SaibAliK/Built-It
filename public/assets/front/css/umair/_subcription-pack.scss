@@ -1,0 +1,329 @@
+.subcription-card-main-p{
+    border-radius: 10px;
+    overflow: hidden;
+    background: #F7F7F7;
+    margin-bottom: 3rem;
+    .black-box-color {
+        background: #333;
+        height: 5.3rem;
+    }
+    .inner-wrapper-card-1{
+        border: 1px solid $primary;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding-bottom: 2.2rem;
+        // overflow: hidden;
+        .back-ground-grenn-box{
+            background: url(../img/sub-green-2.png);
+            height: 7rem;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+            margin-top: -3.5rem;
+            .tittle-pack-nameee {
+                font-size: 2.6rem;
+                font-weight: 800;
+                color: white;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                max-width: 15rem;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        .content-area-package{
+            padding-top: 2.1rem;
+            .price-tittle-pac{
+                font-size: 3rem;
+                font-weight: 800;
+                padding: 0px 1rem;
+                text-align: center;
+                color: $primary;
+
+            }
+            .month-tittle {
+                color: #646464;
+                font-size: 1.2rem;
+                text-align: center;
+                padding: 0px 1rem;
+                font-weight: 500;
+                margin-bottom: 1.2rem;
+            }
+
+        }
+
+        .ul-listing-of-pack{
+            margin-bottom: 0px;
+            height: 13.2rem;
+            overflow: auto;
+            &::-webkit-scrollbar {
+                width: 2px;
+              }
+              
+              /* Track */
+              &::-webkit-scrollbar-track {
+                background: #f1f1f1; 
+              }
+               
+              /* Handle */
+              &::-webkit-scrollbar-thumb {
+                background: $primary; 
+              }
+              
+              /* Handle on hover */
+              &::-webkit-scrollbar-thumb:hover {
+                background: #555; 
+              }
+            .list-item {
+                padding: 0.1rem 1rem;
+                background: #EDEDED;
+                font-size: 1.4rem;
+                color: #333333;
+                svg{
+                    margin-right: 0.2rem;
+                }
+                &:nth-child(even){
+                    background: transparent;
+                    padding: 1.1rem 1rem;
+                }
+            }
+
+        }
+
+
+    }
+
+}
+
+.sub-button-main-block {
+    padding: 0px 2.4rem;
+    margin-top: 2rem;
+    .btn-primary {
+        height: 4rem;
+        font-size: 1.4rem !important;
+    }
+}
+
+
+
+
+.dash-board-sub-pack-main{
+    .subcription-card-main-p{
+        border-radius: 10px;
+        overflow: hidden;
+        background: #F7F7F7;
+        margin-bottom: 3rem;
+        .black-box-color {
+            background: #333;
+            height: 5.3rem;
+        }
+        .inner-wrapper-card-1{
+            border: 1px solid $primary;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            padding-bottom: 2.2rem;
+            // overflow: hidden;
+            .back-ground-grenn-box{
+                background: url(../img/sub-green-2.png);
+                height: 7rem;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                position: relative;
+                margin-top: -3.5rem;
+                .tittle-pack-nameee {
+                    font-size: 2.6rem;
+                    font-weight: 800;
+                    color: white;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    max-width: 15rem;
+                    transform: translate(-50%, -50%);
+                }
+            }
+    
+            .content-area-package{
+                padding-top: 2.1rem;
+                .price-tittle-pac{
+                    font-size: 3rem;
+                    font-weight: 800;
+                    padding: 0px 1rem;
+                    text-align: center;
+                    color: $primary;
+    
+                }
+                .month-tittle {
+                    color: #646464;
+                    font-size: 1.2rem;
+                    text-align: center;
+                    padding: 0px 1rem;
+                    font-weight: 500;
+                    margin-bottom: 2.2rem;
+                }
+    
+            }
+    
+            .ul-listing-of-pack{
+                margin-bottom: 0px;
+                height: 13.2rem;
+                overflow: auto;
+                &::-webkit-scrollbar {
+                    width: 2px;
+                  }
+                  
+                  /* Track */
+                  &::-webkit-scrollbar-track {
+                    background: #f1f1f1; 
+                  }
+                   
+                  /* Handle */
+                  &::-webkit-scrollbar-thumb {
+                    background: $primary; 
+                  }
+                  
+                  /* Handle on hover */
+                  &::-webkit-scrollbar-thumb:hover {
+                    background: #555; 
+                  }
+                .list-item {
+                    padding: 0.1rem 1rem;
+                    background: #EDEDED;
+                    font-size: 1.2rem;
+                    color: #333333;
+                    svg{
+                        margin-right: 0.2rem;
+                    }
+                    &:nth-child(even){
+                        background: transparent;
+                        padding: 1.1rem 1rem;
+                    }
+                }
+    
+            }
+    
+    
+        }
+    
+    }
+
+    .sub-button-main-block {
+        padding: 0px 1.3rem;
+        margin-top: -0.5rem;
+        position: relative;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.mb-70-mt-100 {
+    margin-top: 10rem;
+    margin-bottom: 7rem;
+}
+
+
+.sub-dashboard-tittle-1 {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #666;
+    margin-bottom: 2.7rem;
+}
+
+
+.tittle-check-box-page-parent {
+    display: flex;
+     align-items: center; 
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.remmber-parent-sub-page{
+    display: flex;
+    .revenuee-stream-mem{
+        margin-right: 3rem;
+        &:last-child{
+            margin-right: 0px;
+        }
+    }
+    .remember-me .prvc{
+        width: 100%;
+    }
+
+}
+
+
+
+// feature product 
+.feature-card-dashboard-main {
+    border: 1px solid #E6E6E6;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1.8rem 1.5rem 1.5rem;
+    margin-bottom: 3rem;
+    .basic-tittle{
+        font-size: 2.6rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: $heading;
+        margin-bottom: 1.6rem;
+    }
+    .price-tittle{
+        font-size: 3rem;
+        font-weight: 800;
+        margin-bottom: 1.1rem;
+        color: $primary;
+
+    }
+    .tittle-decp-h4 {
+        font-size: 1.6rem;
+        padding: 0px 2rem;
+        line-height: 2.6rem;
+        font-weight: 400;
+        height: 5.2rem;
+        overflow: hidden;
+        color: #333333;
+    }
+    .count-tittle-here{
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #999;
+        .numbers{
+            color: $heading;
+        }
+
+    }
+}
+
+.feature-button-page{
+    .btn-black{
+        height: 4rem;
+        margin-top: 2.3rem;
+    }
+
+}
+
+
+// end feature product
+
+
+
+
+
+
+
+
+.add-area-button-page {
+    float: right;
+    margin-bottom: 3rem;
+    min-width: 26.2rem;
+}

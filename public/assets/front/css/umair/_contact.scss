@@ -1,0 +1,56 @@
+
+#map{
+  height: 43.0rem;
+  overflow: hidden;
+  border-radius: 8px;
+  @include m-575{
+      margin-top: 3rem;
+  }
+}
+
+
+.parent-socil-phone-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.4rem;
+  .left-social-con{
+    .tittle{
+      font-size: 1.9rem;
+      font-weight: 700;
+      text-transform: capitalize;
+      color: #333;
+      margin-bottom: 2rem;
+    }
+    .icon-flex-div {
+      display: flex;
+      .box-1{
+        margin-right: 1rem;
+      }
+    }
+
+  }
+
+  .right-side-con-foo{
+    .box-img {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      &:last-child{
+        margin-bottom: 0px;
+      }
+      .svg-box-wid {
+        min-width: 2.4rem;
+    }
+      .tittle-name-cont-listi {
+        margin-bottom: 0px;
+        font-size: 1.9rem;
+        color: $primary;
+        font-weight: 400;
+    }
+  }
+
+  }
+ 
+  
+}

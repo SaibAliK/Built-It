@@ -1,0 +1,224 @@
+@mixin paddind-marging {
+  $i:1;
+@for $i from 10  through 100 {
+  $number: 0px + $i #{!important};
+  .rtl{
+    .pl-#{$i} {
+      padding-left: $number;
+    }
+    .pr-#{$i} {
+      padding-right: $number;
+    }
+  }
+  .p-#{$i} {
+    padding: $number;
+  }
+  .pt-#{$i} {
+    padding-top: $number;
+  }
+  .pb-#{$i} {
+    padding-bottom: $number;
+  }
+  .py-#{$i} {
+    padding-bottom: $number;
+    padding-top: $number;
+  }
+  .px-#{$i} {
+    padding-left: $number;
+    padding-right: $number;
+  }
+  .pl-#{$i} {
+    padding-left: $number;
+  }
+  .pr-#{$i} {
+    padding-right: $number;
+  }
+  // margin
+  .m-#{$i} {
+    margin: $number;
+  }
+  .mt-#{$i} {
+    margin-top: $number;
+  }
+  .mb-#{$i} {
+    margin-bottom: $number;
+  }
+  .my-#{$i} {
+    margin-bottom: $number;
+    margin-top: $number;
+  }
+  .mx-#{$i} {
+    margin-left: $number;
+    margin-right: $number;
+  }
+  .ml-#{$i} {
+    margin-left: $number;
+  }
+  .mr-#{$i} {
+    margin-right: $number;
+  }
+// large screen
+  @media (min-width: 991px) {
+    .p-lg-#{$i} {
+      padding: $number;
+    }
+    .pt-lg-#{$i} {
+      padding-top: $number;
+    }
+    .pb-lg-#{$i} {
+      padding-bottom: $number;
+    }
+    .py-lg-#{$i} {
+      padding-bottom: $number;
+      padding-top: $number;
+    }
+    .px-lg-#{$i} {
+      padding-left: $number;
+      padding-right: $number;
+    }
+    .pl-lg-#{$i} {
+      padding-left: $number;
+    }
+    .pr-lg-#{$i} {
+      padding-right: $number;
+    }
+    // margin
+    .mp-lg-#{$i} {
+      margin: $number;
+    }
+    .mt-lg-#{$i} {
+      margin-top: $number;
+    }
+    .mb-lg-#{$i} {
+      margin-bottom: $number;
+    }
+    .my-lg-#{$i} {
+      margin-bottom: $number;
+      margin-top: $number;
+    }
+    .mx-lg-#{$i} {
+      margin-left: $number;
+      margin-right: $number;
+    }
+    .ml-lg-#{$i} {
+      margin-left: $number;
+    }
+    .mr-lg-#{$i} {
+      margin-right: $number;
+    }
+  }
+// medium screen
+  @media (min-width: 767px) {
+    .p-md-#{$i} {
+      padding: $number;
+    }
+    .pt-md-#{$i} {
+      padding-top: $number;
+    }
+    .pb-md-#{$i} {
+      padding-bottom: $number;
+    }
+    .py-md-#{$i} {
+      padding-bottom: $number;
+      padding-top: $number;
+    }
+    .px-md-#{$i} {
+      padding-left: $number;
+      padding-right: $number;
+    }
+    .pl-md-#{$i} {
+      padding-left: $number;
+    }
+    .pr-md-#{$i} {
+      padding-right: $number;
+    }
+    // margin
+    .m-md-#{$i} {
+      margin: $number;
+    }
+    .mt-md-#{$i} {
+      margin-top: $number;
+    }
+    .mb-md-#{$i} {
+      margin-bottom: $number;
+    }
+    .my-md-#{$i} {
+      margin-bottom: $number;
+      margin-top: $number;
+    }
+    .mx-md-#{$i} {
+      margin-left: $number;
+      margin-right: $number;
+    }
+    .ml-md-#{$i} {
+      margin-left: $number;
+    }
+    .mr-md-#{$i} {
+      margin-right: $number;
+    }
+  }
+}
+}
+
+@mixin rtl-pad-mrg {
+  $i:1;
+@for $i from 30  through 100 {
+  $number: 0px + $i #{!important};
+
+    .pl-#{$i} {
+      padding-right: $number;
+      padding-left: 0 !important;
+    }
+    .pr-#{$i} {
+      padding-left: $number;
+      padding-right: 0 !important;
+    }
+    .ml-#{$i} {
+      margin-right: $number;
+      margin-left: 0 !important;
+    }
+    .mr-#{$i} {
+      margin-left: $number;
+      margin-right: 0 !important;
+    }
+
+    @media (min-width: 991px) {
+      .pl-lg-#{$i} {
+        padding-right: $number;
+        padding-left: 0 !important;
+      }
+      .pr-lg-#{$i} {
+        padding-left: $number;
+        padding-right: 0 !important;
+      }
+      .ml-lg-#{$i} {
+        margin-right: $number;
+        margin-left: 0 !important;
+      }
+      .mr-lg-#{$i} {
+        margin-left: $number;
+        margin-right: 0 !important;
+      }
+    }
+    @media (min-width: 767px) {
+      .pl-md-#{$i} {
+        padding-right: $number;
+        padding-left: 0 !important;
+      }
+      .pr-md-#{$i} {
+        padding-left: $number;
+        padding-right: 0 !important;
+      }
+      .ml-md-#{$i} {
+        margin-right: $number;
+        margin-left: 0 !important;
+      }
+      .mr-md-#{$i} {
+        margin-left: $number;
+        margin-right: 0 !important;
+      }
+    }
+  }
+}
+
+@include paddind-marging;

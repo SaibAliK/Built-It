@@ -1,0 +1,34 @@
+.address-modal-check{
+    .modal-body{
+        padding: 0px;
+    }
+    .modal-content {
+        padding: 2rem 2.5rem 2.8rem;
+        border-radius: 30px;
+        overflow: hidden;
+        border: none;
+    }
+    .modal-header{
+        border: none;
+        padding: 0rem 0rem 1.2rem;
+        justify-content: center;
+        .modal-title{
+            font-size: 3.8rem;
+            font-weight: 700;
+            color: $heading;
+            text-transform: capitalize;
+            text-align: center;
+        }
+    }
+    .modal-header .close{
+        display: none;
+    }
+
+    .add-basket-button{
+        .btn-secondary{
+            @include m-575{
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}

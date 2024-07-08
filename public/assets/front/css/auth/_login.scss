@@ -1,0 +1,667 @@
+
+.login-sec-all-pages {
+    background: #f8f8f8;
+    padding: 10rem 0rem;
+}
+
+.box-shadow-cards-login {
+    background: white;
+    border: 1px solid #EEEEEE;
+    border-radius: 20px;
+    padding: 5rem 4.9rem;
+}
+
+.logo-seven-login {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.login-tittle{
+    font-size: 2.6rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.decp-p-login{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 2.7rem;
+
+}
+
+
+
+
+
+.forgot-password{
+  a{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: $heading;
+    position: relative;
+    top: -0.5rem;
+    &:hover{
+        color: $primary;
+    }
+
+  }
+}
+.login-main-section{
+    padding: 9.2rem 0 7.5rem;
+
+}
+
+.social-login{
+    margin-top: 1rem;
+    .heading-s{
+        h2{
+            font-size: 1.6rem;
+            font-weight: 400;
+            color: $heading;
+            line-height: 1.9rem;
+            padding: 0 1rem;
+            background: white;
+            position: relative;
+            z-index: 9;
+        }
+        .b-tb{
+            border-top: 1px solid #CCCCCC;
+            // border-bottom: 1px solid #D7D7D7;
+            height: 0.5rem;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            width: 100%;
+        }
+    }
+}
+
+
+
+
+
+
+.mt-5px {
+    margin-top: 0.5rem;
+}
+
+.mb-24-ctm{
+    margin-bottom: 10px;
+}
+.mb-25-ctm{
+    margin-bottom: 25px;
+}
+.mb-13-ctm{
+    margin-bottom: 23px;
+}
+.mb-15-ctm{
+    margin-bottom: 15px;
+}
+.mb-17-ctm{
+    margin-bottom: 17px;
+}
+.social-btn-position{
+    left: 20px;
+    .fab.fa-google {
+        font-size: 1.4rem;
+    }
+}
+
+
+.not-a-member-p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: $heading;
+    margin-bottom: 0px;
+    a{
+        color: #377DFF;
+        font-weight: 400;
+        &:hover{
+            color: #1A4AB9;
+            cursor: pointer;
+        }
+    }
+}
+
+.bank-info{
+    font-size: 2rem;
+    color: #222;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+.register-page-boldd .tittle a{
+    font-weight: 700 !important;
+
+}
+
+
+
+
+
+.login-chekboc-seet{
+    .prvc{
+        position: relative;
+        top: -0.3rem !important;
+    }
+
+}
+
+.remember-me{
+    .prvc{
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #333;
+        padding-left: 3rem;
+        margin-bottom: 0.5rem;
+        position: relative;
+        top: 0rem;
+        width: 90%;
+        a{
+            color: $heading;
+            font-weight: 500;
+            text-transform: uppercase;
+           
+            &:hover{
+               
+                color: $primary;
+            }
+        }
+    }
+}
+.rtl .remember-me{
+    .prvc{
+        padding-left: 0rem;
+        padding-right: 3.5rem;
+    }
+}
+
+.login-Already{
+    .prvc{
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: $text-p;
+        padding-left: 3.5rem;
+        padding-top: 0.1rem;
+        a{
+            color: $primary;
+            font-weight: 600;
+            &:hover{
+                color: $secondary;
+            }
+        }
+    }
+}
+
+
+.custom-drop-down-uss{
+    .btn.m-usd{
+        width: 100%;
+        height: 5rem;
+        border: 1px solid $border-clr;
+        border-radius: 5px;
+        text-align: left;
+        padding-left: 2rem;
+        font-size: 1.4rem;
+        font-weight: 300;
+        z-index: 2;
+        color: #ccc;
+        outline: 0 !important;
+        position: relative;
+        &:focus{
+            box-shadow: none;
+        }
+       
+
+    }
+    img{
+        position: absolute;
+        right: 2rem;
+        top: 2.1rem;
+    }
+    .dropdown-menu.show{
+        width: 100%;
+    }
+}
+
+
+
+
+
+.login-side-box-1 {
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16%);
+    text-align: center;
+    padding: 4.5rem 3rem 5rem;
+    @include m-575{
+        margin-bottom: 3rem;
+    }
+    .content-area{
+        .tittle{
+            font-size: 3.2rem;
+            font-weight: 500;
+            text-transform: capitalize;
+            color: $heading;
+            margin-bottom: 1.3rem;
+        }
+        .des-p {
+            font-size: 1.8rem;
+            color: $text-9;
+            font-weight: 300;
+            line-height: 2.9rem;
+            margin-bottom: 2.7rem;
+            height: 8.6rem;
+            overflow: hidden;
+            padding: 0rem 1rem;
+        }
+        .btn-primary {
+            min-width: 30rem;
+        }
+    }
+}
+.auth-side-sec {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    @include large-1199{
+        margin-top: 10rem;
+    }
+    @include m-575{
+        margin-top: 15rem;
+    margin-bottom: 7rem;
+    }
+}
+
+.fot-btn-main{
+    margin-top: 2.5rem;
+    .btn-primary {
+        min-width: 24.7rem !important;
+        @include medium-991{
+            min-width: 15.7rem !important;
+        }
+    }
+
+}
+
+.reset-password-link{
+    font-size: 1.6rem !important;
+}
+
+.tittle-dex-forgot {
+    font-size: 1.8rem;
+    color: $heading;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 1.6rem;
+    .bold-em {
+        font-weight: 500;
+        color: $heading;
+    }
+  }
+
+  .rest-two-btn{
+      margin-top: 2.5rem;
+      @include medium-991{
+          flex-direction: column;
+      }
+    .btn-primary{
+        min-width: unset !important;
+        margin-left: 7px;
+        @include medium-991{
+            margin-left: 0rem;
+           
+        }
+    }
+    .secondary-btn-mt{
+        margin-right: 7px;
+        @include medium-991{
+          
+            margin-right: 0rem;
+            margin-bottom: 2rem;
+            
+        }
+    }
+
+  }
+
+  .phone-dropdown .input-rigister .custom-btn {
+    text-align: left;
+    border: none;
+    background: #fff;
+    width: 8.3rem;
+    display: block;
+    padding: 1rem;
+    height: 5rem;
+    font-size: 1.4rem;
+    font-weight: 300 !important;
+    border-radius: 5px;
+    overflow: hidden;
+    outline: 0 !important;
+    min-height: 5rem;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #999;
+    border-radius: 50rem;
+    padding-left: 1.9rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.phone-dropdown .drop-bottom:after {
+    content: '';
+    position: absolute;
+    height: 1.5rem;
+    width: 1px;
+    background: $text-9;
+    right: 6px;
+    top: 1.7rem;
+}
+.input-rigister .ctm-input{
+    padding-left: 0.5rem !important;
+}
+
+.phone-dropdown .input-rigister .check-area-mt label {
+    color: #999;
+    font-weight: normal !important;
+    font-size: 1.4rem;
+    font-weight: 300 !important;
+    padding-top: 0;
+    padding-bottom: 4px;
+    padding-top: 0.4rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    margin-bottom: 0;
+}
+
+.phone-dropdown .input-rigister {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0rem;
+    border: 1px solid #eeeeee;
+}
+.phone-dropdown .input-rigister .check-area-mt input {
+    display: none !important;
+}
+.phone-dropdown .input-rigister .set-border-feedback {
+    border: 1px solid #eeeeee;
+    border-radius: 0px;
+    margin-top: -0.3rem;
+    overflow: auto;
+}
+.phone-dropdown .input-rigister .check-area-mt label:hover {
+    background: $primary;
+    width: 100%;
+    cursor: pointer;
+    color: #fff !important;
+}
+
+
+
+.verify-mt-input{
+    position: relative;
+    display: flex;
+    align-items: center;
+    .ctm-input {
+        padding-left: 5rem;
+        background: #EEEEEE;
+        padding-right: 3rem;
+    }
+    .fa, .fas{
+        font-size: 1.4rem;
+        position: absolute;
+        left: 2rem;
+        color: $text-9;
+        &:after{
+            content: '';
+            position: absolute;
+            width: 1px;
+            height: 2rem;
+            background: #CCCCCC;
+            right: -1rem;
+            top: -0.3rem;
+        }
+    }
+    img{
+        position: absolute;
+        right: 2rem;
+        @include medium-991{
+            width: 0.7rem;
+        }
+    }
+}
+
+.margin-tops {
+    margin-top: 2.5rem;
+}
+
+.btn-custom-reg.mt-24 {
+    border: 1px solid #eee;
+    color: #000 !important;
+    &:hover{
+        background: $primary;
+        color: white !important;
+    }
+}
+
+
+.address-icon-cus {
+    position: absolute;
+    right: 0px;
+    font-size: 2rem;
+    top: 0px;
+    color: #0099FF;
+    background: #C0E5FD;
+    width: 5rem;
+    height: 5rem;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chnage-password-tittle {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: $heading;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.save-cancel-main-btns{
+    display: flex;
+    align-items: center;
+    margin-top: 0.8rem;
+    .btn-primary{
+        min-width: 18.1rem;
+        @include m-575{
+            min-width: 13.1rem;
+        }
+    }
+    .btn-black-us{
+        min-width: 18.1rem;
+        margin-left: 1.5rem;
+        @include m-575{
+            min-width: 13.1rem;
+        }
+    }
+}
+
+.ad-service-span {
+    display: inline-block;
+    width: 1.6rem;
+    background: white;
+    font-size: 0.8rem;
+    color: #1a4ab9;
+    font-weight: 700;
+    border-radius: 2px;
+}
+
+.empty-span-d {
+    text-transform: none;
+    padding-right: 0.7rem;
+}
+
+.dont-have-tittle {
+   
+    h2{
+        font-size: 2rem;
+        text-align: center;
+        color: #666;
+        font-weight: 300;
+        margin-bottom: 0px;
+        margin-top: 5px;
+        a{
+            font-weight: 700;
+            color: $primary;
+            &:hover{
+                color: $secondary;
+            }
+        }
+    }
+}
+
+.login-sec-alll {
+    margin: 10rem 0rem;
+}
+
+.for-page-tittlee {
+    font-size: 1.6rem;
+    color: $heading;
+    text-align: left;
+    font-weight: 300;
+    position: relative;
+    margin-top: -1rem;
+    margin-bottom: 3.7rem;
+}
+
+
+.login-seca-all-page {
+    margin: 10rem 0rem 10rem;
+}
+
+.seprater-line-btns-go {
+    display: block;
+    width: 3rem;
+    min-width: 3rem;
+}
+
+.reset-passord-tittle {
+    margin-top: 1.3rem;
+}
+
+.chec-tittle-11 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.7rem;
+}
+
+.change-pas-tittle-ma {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 3.8rem;
+}
+
+.button-3-socials-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    align-items: center;
+    width: 100%;
+    .box-socl-1 {
+        min-width: 4.5rem;
+        height: 4.5rem;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16%);
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 0.5rem;
+        &:hover{
+            background: #7189ff;
+        }
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+
+        }
+    }
+    .box-socl-1.fb-log {
+        background: #3A5185;
+        &:hover{
+            background: #172670;
+        }
+    }
+    .box-socl-1.apple-log {
+        background: #000000;
+        &:hover{
+            background: #cdc1be;
+        }
+    }
+}
+
+.guest-main-parent {
+    text-align: center;
+    margin-top: 3rem;
+    .guest-tittle-log {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: $primary;
+        &:hover{
+            color: $secondary;
+        }
+    }
+}
+
+.create-no-account-link-log {
+    text-align: center;
+    margin-top: 5rem;
+    .tittle{
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin-bottom: 0px;
+        color: $heading;
+        a{
+            color: $heading;
+            &:hover{
+                color: $primary;
+            }
+        }
+
+    }
+}
+
+
+.create-account-btn{
+    .button-cr-ac {
+        width: 100%;
+        height: 5rem;
+        border: 1px solid #E6E6E6;
+        display: flex;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        border-radius: 8px;
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: #000;
+        margin-bottom: 2rem;
+        &:hover{
+            background: $primary;
+            color: white;
+        }
+    }
+}

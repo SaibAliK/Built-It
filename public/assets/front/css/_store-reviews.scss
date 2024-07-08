@@ -1,0 +1,101 @@
+.review-total{
+    background: #FAFAFA;
+    height:7rem;
+    padding: 1.5rem 2rem;
+    margin-bottom: 2.2rem;
+    border-radius: 0px;
+    border: 1px solid #E6E6E6;
+    .title{
+        font-size: 2.6rem;
+        font-weight: 500;
+        color: $heading;
+        line-height: 2.8rem;
+        span.total-reviewss{
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: #333;
+        }
+    }
+    .review-cot{
+        .count-view{
+            font-size: 1.6rem;
+            font-weight: 300;
+            color: $text-p;
+            line-height: 2.8rem;
+        }
+    }
+}
+// review page style end here
+
+
+
+.reviews-drop-down-btn{
+    .custom-btn{
+        background: none;
+        border: none;
+        position: relative;
+        margin-left: 3px;
+        
+    }
+    .dropdown-menu.show {
+        display: block;
+        min-width: 16.2rem;
+        margin-top: 10px;
+        position: absolute;
+        right: 0px !important;
+        left: auto !important;
+        border-radius: 5px;
+        padding: 1.2rem 1rem !important;
+         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.20);
+    }
+    .reviews-content-main{
+        .fa, .fas {
+            font-size: 1rem;
+            color: #ccc;
+        }
+        .delete-coment{
+            font-size: 1.4rem;
+            font-weight: 300;
+            color: $text-p;
+        }
+    }
+}
+.reviews-page-tittle {
+    font-size: 2rem;
+    font-weight: 600;
+    color: $heading;
+    margin-bottom: 3.3rem;
+}
+
+.rtl{
+    .reviews-drop-down-btn {
+        .custom-btn{
+            margin-left: 0px;
+            margin-right: 3px;
+        }
+    }
+}
+
+
+.tittle-left-starts-icons{
+    .starts-tittle-icon {
+        display: flex;
+        align-items: center;
+        margin: 0px 1rem;
+        .tittle {
+            font-size: 1.5rem;
+            font-weight: 400;
+            position: relative;
+            top: 2px;
+            left: -2px;
+        }
+    }
+
+}
+
+
+.review-list-box.rating-page-cls {
+    border-bottom: 1px solid #E6E6E6;
+    margin-bottom: 2rem;
+    padding-bottom: 1.8rem;
+}

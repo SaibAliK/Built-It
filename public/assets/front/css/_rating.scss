@@ -1,0 +1,296 @@
+.star-rating-area {
+    // width: 12.2rem;
+    // float: left;
+    margin-right: 0px;
+    font-size: 1.4rem; 
+    display: flex;
+    .ratilike {
+        width: auto;
+        display: block;
+        font-size: 1.6rem;
+        margin-top: 0.4rem;
+        color: $text-p;
+        line-height: 1.8rem;
+        padding: 0px 5px;
+    }
+}
+    
+    .star-rating-area .rating > input:checked ~ label,
+    .rating:not(:checked) > label:hover,
+    .rating:not(:checked) > label:hover ~ label {
+    color: $primary; }
+    
+    .star-rating-area .rating > input:checked + label:hover,
+    .rating > input:checked ~ label:hover,
+    .rating > label:hover ~ input:checked ~ label,
+    .star-rating-area .rating > input:checked ~ label:hover ~ label {
+    color: $primary; }
+    
+    .star-rating-area .rating-static {
+    clear: both;
+    float: none;
+    // margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    direction: ltr !important; }
+    
+    .star-rating-area .rating-static > label:before {
+    margin: 0.2rem;
+    font-size: 1.5rem;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005"; }
+    
+    .star-rating-area .rating-static > .half:before {
+    content: "\f089";
+    position: absolute; }
+    
+    .star-rating-area .rating-static > label {
+    color: #cccccc;
+    float: right;
+    margin-bottom: 0; 
+    position: relative;
+}
+    
+.star-rating-area .rating-static[rel="0.1"] label:last-child,
+.star-rating-area .rating-static[rel="0.2"] label:last-child,
+.star-rating-area .rating-static[rel="0.3"] label:last-child,
+.star-rating-area .rating-static[rel="0.4"] label:last-child,
+.star-rating-area .rating-static[rel="0.5"] label:last-child,
+.star-rating-area .rating-static[rel="0.6"] label:nth-child(n + 9),
+.star-rating-area .rating-static[rel="0.7"] label:nth-child(n + 9),
+.star-rating-area .rating-static[rel="0.8"] label:nth-child(n + 9),
+.star-rating-area .rating-static[rel="0.9"] label:nth-child(n + 9),
+.star-rating-area .rating-static[rel="1"] label:nth-child(n + 9),
+.star-rating-area .rating-static[rel="1.1"] label:nth-child(n + 8),
+.star-rating-area .rating-static[rel="1.2"] label:nth-child(n + 8),
+.star-rating-area .rating-static[rel="1.3"] label:nth-child(n + 8),
+.star-rating-area .rating-static[rel="1.4"] label:nth-child(n + 8),
+.star-rating-area .rating-static[rel="1.5"] label:nth-child(n + 8),
+.star-rating-area .rating-static[rel="1.6"] label:nth-child(n + 7),
+.star-rating-area .rating-static[rel="1.7"] label:nth-child(n + 7),
+.star-rating-area .rating-static[rel="1.8"] label:nth-child(n + 7),
+.star-rating-area .rating-static[rel="1.9"] label:nth-child(n + 7),
+.star-rating-area .rating-static[rel="2"] label:nth-child(n + 7),
+.star-rating-area .rating-static[rel="2.1"] label:nth-child(n + 6),
+.star-rating-area .rating-static[rel="2.2"] label:nth-child(n + 6),
+.star-rating-area .rating-static[rel="2.3"] label:nth-child(n + 6),
+.star-rating-area .rating-static[rel="2.4"] label:nth-child(n + 6),
+.star-rating-area .rating-static[rel="2.5"] label:nth-child(n + 6),
+.star-rating-area .rating-static[rel="2.6"] label:nth-child(n + 5),
+.star-rating-area .rating-static[rel="2.7"] label:nth-child(n + 5),
+.star-rating-area .rating-static[rel="2.8"] label:nth-child(n + 5),
+.star-rating-area .rating-static[rel="2.9"] label:nth-child(n + 5),
+.star-rating-area .rating-static[rel="3"] label:nth-child(n + 5),
+.star-rating-area .rating-static[rel="3.1"] label:nth-child(n + 4),
+.star-rating-area .rating-static[rel="3.2"] label:nth-child(n + 4),
+.star-rating-area .rating-static[rel="3.3"] label:nth-child(n + 4),
+.star-rating-area .rating-static[rel="3.4"] label:nth-child(n + 4),
+.star-rating-area .rating-static[rel="3.5"] label:nth-child(n + 4),
+.star-rating-area .rating-static[rel="3.6"] label:nth-child(n + 3),
+.star-rating-area .rating-static[rel="3.7"] label:nth-child(n + 3),
+.star-rating-area .rating-static[rel="3.8"] label:nth-child(n + 3),
+.star-rating-area .rating-static[rel="3.9"] label:nth-child(n + 3),
+.star-rating-area .rating-static[rel="4"] label:nth-child(n + 3),
+.star-rating-area .rating-static[rel="4.1"] label:nth-child(n + 2),
+.star-rating-area .rating-static[rel="4.2"] label:nth-child(n + 2),
+.star-rating-area .rating-static[rel="4.3"] label:nth-child(n + 2),
+.star-rating-area .rating-static[rel="4.4"] label:nth-child(n + 2),
+.star-rating-area .rating-static[rel="4.5"] label:nth-child(n + 2),
+.star-rating-area .rating-static[rel="4.6"] label,
+.star-rating-area .rating-static[rel="4.7"] label,
+.star-rating-area .rating-static[rel="4.8"] label,
+.star-rating-area .rating-static[rel="4.9"] label,
+.star-rating-area .rating-static[rel="5"] label {
+  color: #FF6A00;
+}
+    /*-------------------------Star-Reating-end--------------------------*/
+    
+    
+
+    .review-page-mt{
+        .star-rating-area{
+            width: 173px !important;
+            @include m-325{
+                width: 140px !important;
+            }
+        }
+        .star-rating-area {
+            .rating-static > label:before {
+                margin: 0px 2px !important;
+                font-size: 22px !important;
+                @include m-325{
+                    font-size: 16px !important; 
+                }
+            }
+            .ratilike{
+                font-size: 22px !important;
+                color: $text-9 !important;
+                margin-top: 0px !important;
+                line-height: 31px !important;
+                @include m-325{
+                    font-size: 16px !important; 
+                    line-height: 25px !important;
+                }
+            }
+        }
+
+      }
+
+
+
+    //   .rtl{
+    //     .star-rating-area{
+    //         float:right;
+    //     }
+    //   }
+
+
+    .rtl {
+        .star-rating-area .rating-static > label{
+            float: left;
+        }
+    }
+
+    .rtl .star-rating-area .rating-static > .half:before {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+
+    .rtl .star-rating-area .rating-static > .half:before {
+        right: 0;
+    }
+
+
+
+
+      // add ratting box
+
+.tittle-add-mttt {
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: #333;
+        margin-bottom: 0px;
+}
+
+
+.rating-add-mt {
+    padding: 0;
+ 
+    .rating>input {
+        display: none;
+    }
+
+    .rating>label:before {
+        margin: 0.25rem;
+        font-size: 1.5rem;
+        font-family: FontAwesome;
+        display: inline-block;
+        content: "\f005";
+        @include m-425{
+            font-size: 2rem;
+        }
+    }
+
+    .rating>.half:before {
+        content: "\f089";
+        position: absolute;
+    }
+
+    .rating>label {
+        color: #cccccc;
+        float: right;
+    }
+
+    /***** CSS Magic to Highlight Stars on Hover *****/
+
+    .rating>input:checked~label,
+    /* show gold star when clicked */
+    .rating:not(:checked)>label:hover,
+    /* hover current star */
+    .rating:not(:checked)>label:hover~label {
+        color: $primary;
+        -webkit-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+        cursor: pointer;
+    }
+
+    /* hover previous stars in list */
+
+    .rating>input:checked+label:hover,
+    /* hover current star when changing rating */
+    .rating>input:checked~label:hover,
+    .rating>label:hover~input:checked~label,
+    /* lighten current selection */
+    .rating>input:checked~label:hover~label {
+        color: $primary;
+        -webkit-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+}
+
+
+.rtl {
+    .rating-add-mt .rating > label {
+        float: left;
+    }
+    .rating-add-mt .rating > label:before{
+        transform: scaleX(-1);
+    }
+}
+// add ratting box
+
+
+
+
+// review page style end here
+.review-page-mt{
+    &.star-rating-area {
+        .rating-static > label:before{
+            font-size: 2rem;
+        }
+        .ratilike{
+            font-size: 1.8rem;
+        }
+    }
+}
+
+.rating-page-cls{
+    .review-img{
+        min-width: 5rem;
+        max-width: 5rem;
+        height: 5rem;
+        border-radius: 8px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1.5rem;
+    }
+    .review-detail-box {
+        .title{
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: $heading;
+            text-transform: capitalize;
+        }
+        .reviw-time {
+            font-size: 1.4rem;
+            color: #999;
+            font-weight: 400;
+        }
+        .des {
+            font-size: 1.6rem;
+            font-weight: 400;
+            color: #333333;
+            margin-top: 0.4rem;
+            line-height: 2.6rem !important;
+        }
+    }
+ 
+
+}
+
+

@@ -1,0 +1,12 @@
+/vendor
+/vendorll
+.idea
+/storage/logs
+/node_modules
+/public/images/cache
+.history
+.env
+.history
+.env.example
+.env.example
+*.example

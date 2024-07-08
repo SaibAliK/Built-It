@@ -1,0 +1,72 @@
+
+
+.payment-detail-table-dt.payment-profile-tablee .table .thead-light th{
+    width: 33%;
+}
+
+.payment-detail-table-dt.payment-profile-tablee .table td.light-weight-td{
+    font-weight: 300;
+    color: #999999;
+    font-size: 1.8rem;
+}
+
+.tittle-save-payemnt {
+    font-size: 2.6rem;
+    font-weight: 600;
+    margin: 2rem 0rem 2.6rem;
+}
+
+.image-paypal-play {
+    margin: 0rem 2rem 1.8rem;
+    text-align: center;
+}
+
+
+.payment-detail-table-dt{
+    .table{
+        margin-bottom: 0px;
+    }
+    .table thead th {
+        vertical-align: bottom;
+        border-bottom: 1px solid #ddd !important;
+    }
+    .table .thead-light th {
+        color: #333333;
+        background-color: #E6E6E6;
+        font-size: 1.6rem;
+        font-weight: 700;
+        padding: 1.7rem;
+        text-align: center;
+    }
+     .table td {
+        padding: 1.7rem;
+        vertical-align: top;
+        text-align: center;
+        font-size: 1.8rem;
+        color: $primary;
+        border-top: none;
+        font-weight: 800;
+        border-bottom: 1px solid #DDDDDD;
+    }
+}
+
+.payment-detail-table-dt {
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #E6E6E6;
+}
+
+
+.register-tabs.payment-profile-tabsss{
+    .nav-item .nav-link {
+        height: 4rem;
+        line-height: 1.6rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: #fff;
+        text-align: center;
+        text-transform: capitalize;
+        border-radius: 5px;
+    }
+}
+
